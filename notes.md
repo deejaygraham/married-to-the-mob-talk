@@ -30,6 +30,32 @@ Whole team ownership
 
 Falco - Hunter Industries and Woody Zuill
 
+https://www.slideshare.net/llewellynfalco/mob-programming-75601033
+
+https://www.slideshare.net/llewellynfalco/strong-style-pairing
+
+https://www.youtube.com/watch?v=jaSSKAcYADk
+http://llewellynfalco.blogspot.co.uk/2014/06/llewellyns-strong-style-pairing.html
+http://visible-quality.blogspot.co.uk/2015/08/being-navigator-in-strong-style-pairing.html
+http://blog.xebia.com/practical-styles-of-pair-programming/
+
+
+https://ndcoslo.com/workshop/mob-programming/
+https://agilegamesnewengland.com/index.php/mob-programming-conference
+
+http://www.chrislucian.com/2017/08/mob-programming-q-from-target-software.html?utm_content=buffer59675&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+http://www.chrislucian.com/2016/05/mob-programming-q.html?utm_content=buffer76ecb&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+https://github.com/dillonkearns/mobster
+
+https://lebenplusplus.de/2017/08/27/impressions-from-socrates-2017/
+Mob Programming RPG
+
+
+https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
+
+
+
 
 
 
