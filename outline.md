@@ -57,6 +57,8 @@
   - Task completion
   - Reduced handoffs
   - Whole team ownership
+  - No standup
+  
   
 - Rules
   
@@ -89,15 +91,36 @@
   Strong Style Pairing
   For an idea to go from your head into the computer, it must go through someone elses hands
 
+- Roles
+  - Driver
+    - At the keyboard
+    - Trust the navigator
+    - Make it so
+    
+  - Navigator
+    - Verbal instructions
+    - No keyboard
+    - Talk at highest level of abstraction
+      - intent
+      - 
+      - syntax
+  - Mobber
 
-  Driver
-  At the keyboard
-  Trust the navigator
-  Computer of the SS enterprise
+  - Researcher
+  
+  - Sponsor
+  
+  - Learner ?
+  
+  
+- Timing is everything
+  - Switch every 5 minutes, 10 minutes
+  - How often
+  - How relaxed
+  - Strict timer
+  
+  
 
-  Navigator
-  Verbal instructions
-  Talk at highest level of abstraction
 
 
   Timer - switch to new keyboard every 5 minutes, 10 minutes
@@ -169,6 +192,8 @@
 - Conclusion
   - Thank you
   - Resources
+    - ebook 
+    - github.com/MobProgramming/MobTImer.python
   - Questions
   - Feedback Forms
 
