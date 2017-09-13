@@ -7,29 +7,62 @@
   - Who I am
   - Questions
 
+- Session will answer
+  - What it is
+  - How to use it
+  - Why Woody Zuill is an evil genius
+  - Least original person you will meet
 
+- Pair Programming
+  - When I started
+  - What it is
+  - XP
+  - Problems
+    - Watching someone else
+    - Keyboard hogging
+    - Minimal Collaboration
+    - Skill levels
+  - Informal Pairing
 
-  # Mob Programming
-
-  Code review
-
-  help
-  redundancy
-  correctness
-  readability
-  coding standards compliance
-
-  long feedback loop
-
-  Informal Pairing
-
+- Dojo
+  - Working with junior devs
+  - One person at keyboard who can make progress, everyone watching.
+  - Deliberate Practice
+  - Pairs
+  - Randori
+  - Learning styles
+  - Most productive
+  
+- Strict Style Pairing
+  - Llewellyn Falco
+  - Turns it around
+  - To go into the computer, your idea has to go through someone else's fingers
+  - Better turn around
+ 
+- Mob Programming
+  - Hunter Industries
+  - Turn up the good
+  - Woody Zuill
+  
+- Benefits
+  - Constant Code review
+  - Learning
+  - Code Styles and Standards
+  - Correctness
+  - Readability
+  - Dry, SOLID etc.
+  - Super short feedback loop
+  - Truck number
+  - Help
+  - Task completion
+  - Reduced handoffs
+  - Whole team ownership
+  
+- Rules
+  
   on demand collaboration
 
-  Randori
-
-  dojo working for junior devs
-  one person at keyboard who can make progress, everyone watching.
-
+- How to 
   Pairs at pairing stations
 
   Mob
@@ -37,7 +70,7 @@
   Navigator dumb typist
   Drivers are
 
-  Whole team ownership
+  
 
   Falco - Hunter Industries and Woody Zuill
 
