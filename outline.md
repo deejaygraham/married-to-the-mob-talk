@@ -200,3 +200,77 @@
 Changes:
 
 Prep:
+
+
+
+----
+
+# alt
+
+
+- What is it
+  - Woody Zuiil
+  - Hunter Industries discovered it
+  - All the ...
+  
+- Strong Style Pairing
+  - llewellyn Falco
+  - Driver
+  - Navigator
+  
+- Mob
+  - Extension - turned up the good
+  - Productivity
+  - Cancels dips in productivity
+  - Short feedback loops
+  - Tester
+  - Business Req
+  - Focussed
+  - Learning by Osmosis
+  
+- Mob Testing
+  - Maaret
+  
+  
+- Agile NE
+  - Woody 2016
+  
+- Roles
+  - Driver at laptop
+  - Big screens
+  - Everyone contributes
+  - Navigator tells driver what to type
+  - Facilitator - needed ? 
+  
+- Rules
+  - Be Nice
+  - Kindness, Consideration, Respect
+  - For everyone
+  - Scary talking in front of people
+  - Scary coding in front of people
+  - Not so bad - see gurus who hunt and peck,
+  - can't remember API calls
+  - Timer
+  - Driver 
+  - Navigator -> Driver
+  - retrospective
+    - something is painful - make a tool to help!
+    - pain becomes obvious
+  - timer strictness
+  
+  
+  
+- Dojos
+  
+- Findings
+  - Hard to facilitate
+  - Mob not too big
+  - Drive with mouth shut
+  - Don't type your ideas (strong)
+  - Navigator - mediates
+  - Non coders
+  - Other approaches
+  
+- Links
+  - Woody Ebook on leanpub - mobprogramming
+  - Maaret and LLewellyn - mob programming guidebook
