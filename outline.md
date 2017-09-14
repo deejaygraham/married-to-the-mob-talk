@@ -122,6 +122,13 @@
   
 
 
+"Nothing is more dangerous than an idea, when you have only one idea"
+- Emile-Auguste Chartier
+ Beware of a single programmer, alone in a room
+ 
+The most dangerous
+
+Pragmatic Programmers
 
   Timer - switch to new keyboard every 5 minutes, 10 minutes
 
@@ -273,4 +280,4 @@ Prep:
   
 - Links
   - Woody Ebook on leanpub - mobprogramming
-  - Maaret and LLewellyn - mob programming guidebook
+  - Maaret and LLewellyn - mob programming guidebook - https://leanpub.com/mobprogrammingguidebook
