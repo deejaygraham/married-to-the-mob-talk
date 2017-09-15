@@ -265,6 +265,9 @@ Prep:
     - pain becomes obvious
   - timer strictness
   
+  Small batchers (badgers)
+  Handoffs
+  Waterfall 
   
   
 - Dojos
