@@ -284,3 +284,14 @@ Prep:
 - Links
   - Woody Ebook on leanpub - mobprogramming
   - Maaret and LLewellyn - mob programming guidebook - https://leanpub.com/mobprogrammingguidebook
+
+
+- Swap every n minutes
+- Break every n minutes (comfort)
+
+- RpG Game 
+https://github.com/willemlarsen/mobprogrammingrpg
+- Timing
+https://github.com/dillonkearns/mobster
+
+
