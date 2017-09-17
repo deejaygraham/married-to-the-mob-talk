@@ -352,4 +352,139 @@ Nose
 - Timing
 https://github.com/dillonkearns/mobster
 
+Working together, not working individually and getting together to scrum
 
+Pairing
+Swarming
+Mobbing
+
+
+- Woody
+
+  - At hunter
+    - Turn up the good on working together
+    - What we noticed - good and wanted to try more of working together
+
+- Rotate Roles
+
+  - Analysts
+  - Testers
+  - Devs
+  - Product Experts - why are we making it - part of the team at least partially
+  
+  - Whole workflow, people knwo part, overlapping knowledge but not complete- handoffs
+  
+  
+  - Green field projects
+  
+  
+- Driver
+  - One person typing
+  - Translates thoughts team is having into code that a computer can use
+  - Programming is code and learning and thinking about what we are doing
+  - Whole team thinking, learning and translating through
+  
+  
+- Exhausting in meetings
+  - Mobs are not meetings
+  - Pay attention but not intent
+  - Super laser focus wears you out
+  
+  - Get up, go work on something else, where can you contribute in the right way at the right time.
+  - Respond to current situation
+  
+  - Efficient?
+    - Effectiveness !!!
+    - Not typing pool
+    - What destroys productivity
+    - Blocking Questions - queue
+    - Waiting for answers
+      - Sitting together
+      - Better to clarify rather than email or waiting for a meeting
+    - Working together was better for them.
+    - Noticed that was better.
+    
+    - Waiting for Lead developer
+    - Context switching
+    - Working on serveral tasks to fill in when blocked
+    - Long running tasks , nothing gets finished or long running.
+    
+    - Purpose Mastery Autonomy
+    
+    
+    
+  Training from the back of the room
+    
+  Design Studio method
+  Orchestras
+  Writing Music
+  Writers room
+  Sports teams
+  
+  Better results working together - didnt' start out - noticed it.
+  
+  Team in name only
+  Same manager but all working on different things
+  Jackson and Mei
+  
+  
+  Simple principles
+    - Strong pairing
+    - Articulate idea before part of code
+    
+    Pairing some styles
+      Typing person has idea. and is typing into the keyboard, not description
+      Other person is reading back from screen
+      Not good tranlation
+      
+      Flow being in the zone, Mihaly Chiczhemis
+      
+      At keyboard for a few minutes at a time
+      QUality of thought is more important than quality of typing.
+      
+      SQL, C#, Javascript, Html
+      Shared cognitive burden
+      Work on bigger problems. 
+      
+      
+      
+      Alaska Airlines
+      Hunter Industries
+      Unruly Media
+      Blue Fruit
+      
+      
+      Learn from each other
+      
+      
+      Swarming chaotic and unstructured
+      Mob is more formal
+      disciplined
+      
+      Break out for 
+      
+      Knowledge sharing for new members. Harde to understnad object model
+      Easy to pick up idioms, teach history of app
+      
+      Management skepticism
+      - If it works
+      
+      Diligence in creating tests, refactoring, naming
+
+
+- Size
+  3, 4 or more
+  
+  
+  Mob testing
+     Spreading knowledge
+     Experimenting
+     Lowert knowledge
+     Different approaches in testing
+     
+     
+     Team decision
+     Idiomatic, wisdom of the group
+     Not follows a persons personality
+     Features takes a shorter amount of time
+     
