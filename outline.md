@@ -66,7 +66,11 @@ Getting started
   Woody father of mob. 
   Treat people with kindness consideration and respect
   
-  Llewellyn (inception of mob) - useful way to do it even if not using mob
+  fundamental attribution error
+    - I broke the build because of reasons, you broke the build because you're a terrible person.
+    
+    
+    Llewellyn (inception of mob) - useful way to do it even if not using mob
   
   Consideration
     - Listen and put your self in their place.
