@@ -5,18 +5,74 @@
 - Opener
   - Thank you for being here
   - Who I am
-  - Questions
+    - Principal Dev
+    - Sage
+    - NE Bytes
+    - Agile NE
+    - Makers and Creators @ CN
+  - Questions at any time
 
-Not here to tell you that you have to do or this is the only way to do it
-It is possible and teams are doing it and having success.
+- Before I begin
+  - Not here to tell you that you have to do or this is the only way to do it
+  - But - It is possible and teams all over the world are doing it and having success.
+  - Alaska Airlines, Hunter Technologies
+  - Woody has hundreds of cases - travels the world advising 
+  
+- What is it
+  - Mob programming is where 3 or more pepole get together to solve a single problem
+  - There are rules and guidelines 
 
-Getting started
+- Pair Programming
+  - Two devs sitting at a keyboard
+  - Dreyfuss model
+    - careful pairing to keep focus
+    - Beginner and Expert !!!
+    
+  - Dev typing (not explaining verbally). Rubber Ducking
+  - Dev reading what is typed and making sense of it.
+  - Strong personalities
+  - Often see one person typing and another is the nodding dog.
+  
+- Evolution
+  - XP++
+  
+- Swarming 
+  - How is it different?
+  
+  - Pair Programming is bad enough
+  
+- Isn't it just massively inefficient Pair programming?
+
+- That's some nice code you got there
+- It would be a pity if anything happened to it
+
+- Rules
+
+
+- Guidelines
+
+
+- Roles
+  - Not brilliant descriptors but...
+  - Driver
+
+  - Navigator
+
+  - Mob
+
+
+- Takeaways
+  - Pair
+  - Do strong style pairing
+  - Mob when you can
+  - Hopfully it will catch on
+  
+  
+- Getting Started
   - 
   
-  Common mistakes
+- Common mistakes
   
-  3 or more pepole get together to solve single problem.
-  All over the world is being done.
   
   
   Pairing
