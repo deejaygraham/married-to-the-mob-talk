@@ -689,3 +689,62 @@ Mobbing
      Not follows a persons personality
      Features takes a shorter amount of time
      
+
+Reasons for frustration
+Information silos
+Too many meetings
+Testing or reviewing too late
+Inconsistent coding
+accruing technical debt
+context switching
+Waiting for questions to be answered
+
+
+Mobbing components 
+keyboard
+navigator
+mob
+keyboard
+big screen
+
+
+Continuous Code Review
+Knowledge sharing
+Emergent design
+Debate
+Consistency
+Learning
+Inclusivity
+Truck numbers
+
+Tea and biscuits
+Pens and paper, whiteboard for parking
+
+
+Talk about line numbers
+Mobbing remotely, just google hangouts, even done it via github where we can remotely change a doc in browser and have 
+online build and test.
+
+not everything is suitable for a mob
+repetitive tasks - tools or just crunch through (headphones and head down)
+
+# tiredness kills
+Don;t let or make one person drive too long
+
+Avoid rabbit holes
+
+Not mandatory - it might work for you, consider it
+
+
+Hohman, M Slocum, A , Mob Programming and the Transitiion to XP (2001)
+
+Pair -> Swarm -> Mob
+
+Code club / dojo
+
+Emily Bache Randori style dojo
+
+Rooksby, Hunt Wang, Theory and Practice of randori coding dojos 2014
+
+Wilson A mob programming what works and what doesnt Helsinki 2015
+
