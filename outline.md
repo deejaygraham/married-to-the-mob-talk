@@ -83,8 +83,50 @@ Getting started
    
    
    Can be very tiring but also the most productive, very enjoyable
+ 
+ Rules
+ Kindness
+ Consideration 
+ Respect
+ 
+ Prevents name calling and derogatory remarks
+ Norm Kerth's retrospective prime directive - every one is doing their best for theam 
+ and have their own point of view.
+ 
+ 
+ Guidelines
+ * Have a timer
+ * Strong Styling
+ * Roles
+    Driver
+    Navigator from XP
+    Other Mob 
+      - Overwhelming having all navigators
+      - Depends on size of team
+* Research
+* AUtomation
+  Slow is obvious
+  Use automation to get rid of slowness in process
+  
+ Regular retrospectives
+  How did the day go, week go
+ 
+ 
+ 
+ Turns Pair programming inside out
+ Continuous code review
+ Longer ability to focus
+ attention to detail
+ catching errors
    
+ Mob is not crippled by bathroom breaks or meetings or holidays
+ 
    
+Focus
+
+  Organically there are a lot of things to think about
+  Code, standard, deployment, use cases, testing buisness impact, security etc.
+  Mob takes up different aspects of all these 
    Doesn't work
     One person is an expert - don't give them a keyboard - not allowed to have the keyboards
     Get understanding from them
