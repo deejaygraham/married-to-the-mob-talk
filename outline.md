@@ -676,6 +676,7 @@ Mobbing
 - Size
   3, 4 or more
   
+  Fails on tedious tasks or long running tests, admin tasks
   
   Mob testing
      Spreading knowledge
@@ -683,6 +684,10 @@ Mobbing
      Lowert knowledge
      Different approaches in testing
      
+     
+    Discussion is good - don't want groupthink
+    
+     Mob size - mini mob is 3-4 people, others talk about that as a mob and 5 too many
      
      Team decision
      Idiomatic, wisdom of the group
@@ -748,3 +753,18 @@ Rooksby, Hunt Wang, Theory and Practice of randori coding dojos 2014
 
 Wilson A mob programming what works and what doesnt Helsinki 2015
 
+Research backs it up
+
+
+    A study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving.
+    Researchers compared the problem-solving performance of small groups to that of individuals working alone. 
+    The results of the study indicate that groups of three solve problems better than even the best individuals working alone.
+    What are the implications of these results? The findings may be useful in academics, where problem solving groups might serve as an effective learning tool. Groups and teams in science, health care, and business may also find these techniques useful as well.
+    
+    
+    Bray, R. M., Kerr, N. L., & Atkin, R. S. (1978). Effects of group size, problem difficulty, and sex on group performance and member reactions.
+
+Journal of Personality and Social Psychology, 36, 1224-1240.
+
+
+    
