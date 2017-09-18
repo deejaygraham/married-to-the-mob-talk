@@ -7,6 +7,207 @@
   - Who I am
   - Questions
 
+Not here to tell you that you have to do or this is the only way to do it
+It is possible and teams are doing it and having success.
+
+Getting started
+  - 
+  
+  Common mistakes
+  
+  3 or more pepole get together to solve single problem.
+  All over the world is being done.
+  
+  
+  Pairing
+  Evolution of XP
+  
+  Pairing - driver, navigator
+  Driver is typing in, navigator looks for further - metaphor
+  
+  Terms not good
+  Typist
+  Rest of mob
+  
+  
+  Typist
+  - Listen to what mob is asking
+  - Translate to code
+  - Work with incomplete understanding at short intervals
+  - Patience!
+  - Don't premature challenge - endless discussions
+  - Write the code, talk about the code, change - arguments fall away
+  - Shared understanding.
+  - Seeing code artefact
+  - Short periods of time
+    - Effective - typist duration is very small.
+    
+  Rest
+    Discover what the next logical step is
+    New mob nobody is in sync.
+    Work collaboratively
+    What is the next step and park everything else
+    Talk at level of abstraction
+      - Inexperienced
+      - Synatax level
+      - Extract method
+      - Move to line, select lines, right click...
+      - Communication is difficult
+      - Challenge is hard to 
+      
+ Just for programmers?
+  Testers
+  Increase levels of understanding
+    - Responsible to help understanding
+    - If you don't understand - have courage to ask
+    
+  
+  
+  Woody father of mob. 
+  Treat people with kindness consideration and respect
+  
+  Llewellyn (inception of mob) - useful way to do it even if not using mob
+  
+  Consideration
+    - Listen and put your self in their place.
+    - Understand where they are coming from
+    
+      
+      
+   Visible - good for discussion and insights
+   Whiteboard - identify important things to park on whiteboard
+   
+   
+   Can be very tiring but also the most productive, very enjoyable
+   
+   
+   Doesn't work
+    One person is an expert - don't give them a keyboard - not allowed to have the keyboards
+    Get understanding from them
+    
+    Truck number
+    
+    Help everyone else get up to speed
+    
+    Nobody knows what's going on
+    Legacy, person gone
+    
+    Timebox refactoring to improve code. At the end of the 20 mins. Talk about, throw away changes 
+    
+    New technology
+      No body knows, needs research Timebox separation  - everyone has a different learning style
+      What do we need to know to solve
+        - Share what we have learned. 
+        - Put puzzle parts together.
+        
+        
+        
+ Cost effective?
+  Sage accountancy software
+  Cost x 4
+  Single person's job
+  Is it cost effective
+  Productivity and effectiveness
+   Can you not just type faster
+   
+Deve productivity
+  Knowledge work
+  Lines of code?
+  Number of hours?
+  BUSYNESS
+  Time to market
+  Financial Return - systems thinking
+    Dev
+    Sales
+    Marketing
+    Really hard to measure 
+  
+What impacts developer productivity? Ask audience
+  Meetings?
+  Phone calls
+  Project Managers?
+  Interruptions?
+  Slow decision makers
+  Not available
+  Solving the wrong problem
+  Too many hours
+  Code quality goes down
+  Bugs
+  Productivity of everyone - devs and testers
+  Incomplete understanding - see defects
+  Cruft - quality of code. Falco - on our own we get best and worst of us - graph
+  - retro fit practices to compensate - code review
+  Mob - Filters worst and get best all the time, 
+  Technical Debt
+  Investigating potential defects (not really a defect)
+  
+  Mutlitasking
+    switch 15 minutes+ cost
+    Multiple switches - lose hours per day
+    Context switches are expensive
+    Mob solves 
+    
+    Reduce WIP
+  
+  
+  Grunt work
+    
+    
+    
+    Solo is faster
+    Major cost in production is defects and maintenance
+    Time spent overall is less due to improved quality
+    
+    Very expensive pair programming
+    
+    
+    Ideal team size is 4 ish for complex problems
+    2s is level of cleverest person
+    3-5 can solve more complex problems than the clevest 
+    American Psychological society study
+    
+    
+    Pair programming
+      Strong personalities vim or emacs
+      Anti-pattern - heated and confrontational
+      - Introverts
+      - Person typing
+      
+      Increased flow.
+      Work stops, meeting, come back, type
+      Work flows because it's averaged.
+      Work on the most important thing
+        park other things
+        
+      
+      Group majority
+      Go where the majority wants to go
+      
+      
+      Waiting for information
+      If you are waiting there is someone missing from the mob
+      
+    
+    
+      Physical setup to get it right
+      
+      lareg screens
+      Open space to work
+      Keyboard
+      Hunter pix 12 teams
+      
+  Timer
+    - Rotate keyboard
+    - 
+    
+  Pic of big screen
+    
+    
+      
+  Excites me about using learning - training from the back of the room.
+  
+  
+  
 - Session will answer
   - What it is
   - How to use it
