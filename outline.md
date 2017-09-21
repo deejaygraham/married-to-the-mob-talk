@@ -3,12 +3,8 @@
 46 slides max, 45 minutes plus questions. breaks for interest, stories, keep in mind Medina's Law
 
 - Opener
-  - Thank you for being here, I'm standing between you and lunch
+  - Thank you for being here
   - Who I am
-    - Principal Dev
-    - At Sage
-    - Run local meeteup groups in Newcastle (NE Bytes & Agile NE)
-    - Also project lead for Makers and Creators @ CN
   - Questions at any time
   
 - 3 Important Questions
@@ -18,13 +14,7 @@
   - Strong Style as big take away
 
 - Agile
-  - Who here considers they are working in an agile way?
-  - Scrum?
-  - Standups?
-  - Sprints?
-  - Retrospectives?
-  - Code Reviews?
-  - Pairing?
+  - Audience poll
   
 - XP & Pairing
   - Two devs sitting at a keyboard, swapping between them
