@@ -41,15 +41,6 @@ http://blog.xebia.com/practical-styles-of-pair-programming/
 
 
 https://ndcoslo.com/workshop/mob-programming/
-https://agilegamesnewengland.com/index.php/mob-programming-conference
-
-http://www.chrislucian.com/2017/08/mob-programming-q-from-target-software.html?utm_content=buffer59675&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-http://www.chrislucian.com/2016/05/mob-programming-q.html?utm_content=buffer76ecb&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-
-https://github.com/dillonkearns/mobster
-
-https://lebenplusplus.de/2017/08/27/impressions-from-socrates-2017/
-Mob Programming RPG
 
 
 https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
