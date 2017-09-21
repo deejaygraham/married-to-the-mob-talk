@@ -85,7 +85,11 @@
   Typist
   Rest of mob
   
-  
+  Rubber Ducking 
+      Eliza bot 
+      https://rubberduckdebugging.com/cyberduck/
+      
+      
   Typist
   - Listen to what mob is asking
   - Translate to code
