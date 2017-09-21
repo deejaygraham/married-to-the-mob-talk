@@ -892,8 +892,9 @@ Code club / dojo
 Emily Bache Randori style dojo
 
 Rooksby, Hunt Wang, Theory and Practice of randori coding dojos 2014
+http://johnrooksby.org/papers/XP2014_rooksby_dojo.pdf
 
-Wilson A mob programming what works and what doesnt Helsinki 2015
+Wilson A mob programming what works and what doesnt Helsinki 2015 (Unruly Media)
 
 Research backs it up
 
