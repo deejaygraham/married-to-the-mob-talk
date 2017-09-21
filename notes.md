@@ -1,6 +1,25 @@
-# Mob Programming
+# DDD North 2017 Married to the Mob (Programming)
 
-Code review
+## Intro
+
+Thank you for being here, I realise I am standing between you and lunch.
+
+Who I am - principal dev, sage, run local meetup groups .net and agile. Also lead Makers and Creators at Campus North
+
+I am happy to take questions at any time
+
+I would like to share what I have learned about the technique of Mob programming in the last 18 months or so. What is mob programming, how to do it, is Woody Zuill an evil genius?
+
+## Agile
+
+Who here considers they are working in an agile way? 
+  - Scrum?
+  - Standups?
+  - Sprints?
+  - Retrospectives?
+  - Code Reviews?
+  - Pairing?
+
 
 help
 redundancy
