@@ -135,47 +135,25 @@
   
   
 - Research 
-
-  Research backs it up
-  A study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving.
-  Researchers compared the problem-solving performance of small groups to that of individuals working alone. 
-  The results of the study indicate that groups of three solve problems better than even the best individuals working alone.
-  What are the implications of these results? The findings may be useful in academics, where problem solving groups might serve as an effective learning tool. Groups and teams in science, health care, and business may also find these techniques useful as well.
-    
-  Bray et al
-   
-
-- Reading
-
-  - Bray, R. M., Kerr, N. L., & Atkin, R. S. (1978). "Effects of group size, problem difficulty, and sex on group performance and member reactions." Journal of Personality and Social Psychology, 36, 1224-1240.
-  - Rooksby, Hunt Wang, "Theory and Practice of randori coding dojos", 2014 http://johnrooksby.org/papers/XP2014_rooksby_dojo.pdf
-  - Wilson A, "Mob programming what works and what doesn't", Helsinki 2015 (Unruly Media)
-  - Hohman, M Slocum, A , "Mob Programming and the Transitiion to XP" (2001), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.2967&rep=rep1&type=pdf
-
-- Timers
-
-  - Mobster timer https://github.com/dillonkearns/mobster
+  - Psychology study - teams up to 3 people - solve ordinary problems defined by smartest person.
   
-  
-  http://mobprogramming.org/
-  https://agilegamesnewengland.com/index.php/mob-programming-conference
-  
-- Mob RPG Game
-  - Good guide to the roles and behaviours
-  - Need to run it on a code kata maybe?
-  - Willem Larsen https://github.com/willemlarsen/mobprogrammingrpg
+
+- Resources
+  - WebSites  
+  - Papers
+  - Books
+  - Github
+    - RPG Game
+    - Timers
   
 - Takeaways
-  - Pair
+  - Pairing
   - Do strong style pairing !!!
-  - Mob when you can - hard to do culture change to do full mobbing
+  - Adhoc Mob when you can - hard to do culture change to do full mobbing
   - Mob ad-hoc seems to be good second best
-  - Hopfully it will catch on
-
   
 - Closer
   - Thank you for being here
-  - Hope it was useful
   - Woody is back in UK in July 2018 
   - Questions
   - Feedback forms
@@ -192,6 +170,4 @@
       
   - Jigsaw?
   - Talk to Sarah or JP about mob testing
-  
- 
 
