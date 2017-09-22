@@ -28,87 +28,6 @@ Lone developer working in cube/silo and having a comparatively long feedback loo
 Mitigations for that are code review, quality gates, various QA strategies - mainly manual testing, demonstration and sign offs at the end of the project. All kinds of Kubuki because of big batch size. 
 
 
-## XP 
-XP came along to try and resolve some of those issues and shorten the feedback loop - code review gets done all the time with pairing, continuous integration gives feedback on build issues, automated tests, smoke tests give quick feedback on overall quality (although not a guarantee). Smaller batches.
-
-
-## My Journey
-
-Least original person - Come up with all kinds of good ideas. Invented ReST after it had been invented. Invented something like No Estimates - twitter told me I hadn't invented it. Refactoring techniques - Woody - Ah yes we do that...
-
-As part of my role as a principal dev, I run lunchtime coding dojos for some of the less experienced devs or those looking to move up to a dev role. This is a deliberate discovery setup where the goal is to learn something, not to complete a program. I started off setting a small programming problem each week and trying TDD in pairs and threes. This worked quite well until a chance conversation with Emily Bache turned me on to Randori style programming. What I found was the beginners got stuck very easily trying to write code as an inexperienced pair and would get bogged down in the wrong thing. Randori meant that we collapsed the pairs into a single group with the person who thought they could progress at the keyboard and the rest of the group would watch. That person would get stuck but someone else would be inspired by that idea and would take the keyboard and be able to add something else. And little by little we solved some problems, and devs progressed. 3 Test engineers are now developers thanks to that process. 
-
-Meanwhile, Woody Zuill was hired at Hunter Industries to help a development team to improve their quality and deliver some projects. The team identified the shortcomings in their knowledge and so they took an action to meet for an hour each morning to do a dojo like activity to practice techniques like refactoring, they had a lunchtime study session for dev books. After each session the devs would return to their desks/silos and begin the real work of the day. What they found was they missed working as a group and discussed trying an experiment....
-
-Meanwhile...
-
-All through this gradual evolution of the dojo process I was using the socratic method to question what the group was thinking about - using questions to direct their thoughts to one thing or another. Also I encouraged the person typing to describe what it was that they were doing. But! I noticed that some people were reluctant to volunteer to type and were embarrassed to speak up, unsure of syntax etc. when all eyes were on them.
-
-So we decided to turn the randori style inside out and have the person at the keyboard be the person to just concentrate on typing with the person with the actual idea would dictate what to do. This meant that the person at the keyboard got to type in the language and got the syntax explained to them as they went along, the person with the idea got to struggle with expressing themselves clearly, and the rest of the group got to hear what they were thinking and contribute.
-
-This worked really well and has stayed as the model for our coding dojos. I was so proud of this that tweeted about this new invention and would came back with a "well actually?" Woody. Evil Genius Woody.
-
-And he told me all about what had been happening at Hunter. How the team had started working together as a group on their tasks almost full time and were getting great results! Curses another invention foiled.
-
-
-## XP++
-
-So what is Mob Programming? (that's a lovely bit of code you got there, it would be a pity if anything were to happen to it)
-
-Woody's quote says it best:
-
-"All the brilliant people working on the same thing, at the same time, in the same space..."
-
-"...and on the same computer"
-
-It's an extension of pair programming with the next highest collective nound being a "mob".
-
-One Driver (typist), a navigator, others.
-
-
-
-## Strong Style Pairing
-
-Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements. 
-
-
-
-Falco - Hunter Industries and Woody Zuill
-
-https://www.youtube.com/watch?v=jaSSKAcYADk
-http://llewellynfalco.blogspot.co.uk/2014/06/llewellyns-strong-style-pairing.html
-http://visible-quality.blogspot.co.uk/2015/08/being-navigator-in-strong-style-pairing.html
-http://blog.xebia.com/practical-styles-of-pair-programming/
-
-
-https://ndcoslo.com/workshop/mob-programming/
-
-
-https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
-
-
-
-
-
-
-# DDD North 2017 Married to the Mob (Programming)
-
-46 slides max, 45 minutes plus questions. breaks for interest, stories, keep in mind Medina's Law
-
-- Opener
-  - Thank you for being here
-  - Who I am
-  - Questions at any time
-  
-- 3 Important Questions
-  - What is mob programming?
-  - How do I do it?
-  - Is Woody Zuill an Evil Genius? 
-  - Strong Style as big take away
-
-- Agile
-  - Audience poll
-  
 - XP & Pairing
   - Two devs sitting at a keyboard, swapping between them
   - Driver has an idea of how to proceed and types code
@@ -133,30 +52,84 @@ https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
   - Pairing Experts
   - Pairing Expert and Senior
 
-  
-- What is Mob Programming - XP++
-  - That's some nice code you got there
-  - It would be a pity if anything happened to it
-  - Evolution of XP 
-    - Makes sense
-    - I have had a similar kind of thing
-  - Woody Quote
-  - Where > 3 people collaborate on a single computer to solve a problem or series of problems
-  - There are rules and guidelines
-  
-  
-- Rules
-  - Kindness 
+
+
+## XP 
+XP came along to try and resolve some of those issues and shorten the feedback loop - code review gets done all the time with pairing, continuous integration gives feedback on build issues, automated tests, smoke tests give quick feedback on overall quality (although not a guarantee). Smaller batches.
+
+https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
+
+
+## My Journey
+
+Least original person - Come up with all kinds of good ideas. Invented ReST after it had been invented. Invented something like No Estimates - twitter told me I hadn't invented it. Refactoring techniques - Woody - Ah yes we do that...
+
+As part of my role as a principal dev, I run lunchtime coding dojos for some of the less experienced devs or those looking to move up to a dev role. This is a deliberate discovery setup where the goal is to learn something, not to complete a program. I started off setting a small programming problem each week and trying TDD in pairs and threes. This worked quite well until a chance conversation with Emily Bache turned me on to Randori style programming. What I found was the beginners got stuck very easily trying to write code as an inexperienced pair and would get bogged down in the wrong thing. Randori meant that we collapsed the pairs into a single group with the person who thought they could progress at the keyboard and the rest of the group would watch. That person would get stuck but someone else would be inspired by that idea and would take the keyboard and be able to add something else. And little by little we solved some problems, and devs progressed. 3 Test engineers are now developers thanks to that process. 
+
+Meanwhile, Woody Zuill was hired at Hunter Industries to help a development team to improve their quality and deliver some projects. The team identified the shortcomings in their knowledge and so they took an action to meet for an hour each morning to do a dojo like activity to practice techniques like refactoring, they had a lunchtime study session for dev books. After each session the devs would return to their desks/silos and begin the real work of the day. What they found was they missed working as a group and discussed trying an experiment....
+
+Meanwhile...
+
+All through this gradual evolution of the dojo process I was using the socratic method to question what the group was thinking about - using questions to direct their thoughts to one thing or another. Also I encouraged the person typing to describe what it was that they were doing. But! I noticed that some people were reluctant to volunteer to type and were embarrassed to speak up, unsure of syntax etc. when all eyes were on them.
+
+So we decided to turn the randori style inside out and have the person at the keyboard be the person to just concentrate on typing with the person with the actual idea would dictate what to do. This meant that the person at the keyboard got to type in the language and got the syntax explained to them as they went along, the person with the idea got to struggle with expressing themselves clearly, and the rest of the group got to hear what they were thinking and contribute.
+
+This worked really well and has stayed as the model for our coding dojos. I was so proud of this that tweeted about this new invention and would came back with a "well actually?" Woody. Evil Genius Woody.
+
+And he told me all about what had been happening at Hunter. How the team had started working together as a group on their tasks almost full time and were getting great results! Curses another invention foiled.
+
+
+## XP++
+
+So what is Mob Programming? (that's a lovely bit of code you got there, it would be a pity if anything were to happen to it)
+Where > 3 people collaborate on a single computer to solve a problem or series of problems.
+
+Woody's quote says it best:
+
+"All the brilliant people working on the same thing, at the same time, in the same space..."
+
+"...and on the same computer"
+
+It's an extension of pair programming with the next highest collective noun being a "mob".
+Turn up the good echoing XP
+
+There are rules and guidelines to follow.
+
+
+## Rules
+
+  - Kindness (sprinkle)
   - Consideration
   - Respect
+  - Use strong style pairing (important)
 
-- Guidelines
-  - Everyone has a role
-  - Swap roles every so often
+## Strong Style Pairing
 
-- Roles
+Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements. 
 
-  - I don't like these two descriptors but...
+"For an idea to go from your head into the computer it MUST go through someone else's hands"
+
+
+http://llewellynfalco.blogspot.co.uk/2014/06/llewellyns-strong-style-pairing.html
+
+http://visible-quality.blogspot.co.uk/2015/08/being-navigator-in-strong-style-pairing.html
+http://blog.xebia.com/practical-styles-of-pair-programming/
+
+
+
+## Roles
+
+From the XP roles, we have a driver, and the rest of the mob. If the mob is particularly big you might need to direct efforts through single nominated navigator who changes when the driver changes. If it's bigger still you may need a facilitator too.
+Everyone in the team has a role and the roles swap amongst members of the team every few minutes.
+
+
+## Rubber Ducks
+
+Like rubber ducking, find faults by vocalising what you are thinking. Much better than thinking in own head.
+
+
+## Guidelines
+
   - Driver or Typist
     - Listen to what mob is asking
     - Translate that to code
@@ -286,25 +259,6 @@ https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
   - Jigsaw?
   - Talk to Sarah or JP about mob testing
   
- 
-
-
-
-
-
-
-http://mobprogramming.org/
-
-Woody - Comes up with these ideas
-
-All the brilliant people working on the same problem, at the same time, in the same space, on the same computer
-
-Turn up the good echoing XP
-
-
-Strong Style Pairing
-For an idea to go from your head into the computer, it must go through someone elses hands
-
 
 Driver
 At the keyboard
