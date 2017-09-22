@@ -6,9 +6,10 @@ Thank you for being here, I realise I am standing between you and lunch.
 
 Who I am - principal dev, sage, run local meetup groups .net and agile. Also lead Makers and Creators at Campus North
 
-I am happy to take questions at any time
+I am happy to take questions at any time.
 
-I would like to share what I have learned about the technique of Mob programming in the last 18 months or so. What is mob programming, how to do it, is Woody Zuill an evil genius?
+I would like to share what I have learned about the technique of Mob programming in the last 18 months or so. What is mob programming, how to do it, is Woody Zuill an evil genius? Also embedded in the middle of that is a overlooked technique which I think has some massive benefits and I will explore that later.
+
 
 ## Agile
 
@@ -21,37 +22,58 @@ Who here considers they are working in an agile way?
   - Pairing?
 
 
-help
-redundancy
-correctness
-readability
-coding standards compliance
+## Tradition
 
-long feedback loop
+Lone developer working in cube/silo and having a comparatively long feedback loop between writing code and having it used.
+Mitigations for that are code review, quality gates, various QA strategies - mainly manual testing, demonstration and sign offs at the end of the project. All kinds of Kubuki because of big batch size. 
 
-Informal Pairing
 
-on demand collaboration
+## XP 
+XP came along to try and resolve some of those issues and shorten the feedback loop - code review gets done all the time with pairing, continuous integration gives feedback on build issues, automated tests, smoke tests give quick feedback on overall quality (although not a guarantee). Smaller batches.
 
-Randori
 
-dojo working for junior devs
-one person at keyboard who can make progress, everyone watching.
+## My Journey
 
-Pairs at pairing stations
+Least original person - Come up with all kinds of good ideas. Invented ReST after it had been invented. Invented something like No Estimates - twitter told me I hadn't invented it. Refactoring techniques - Woody - Ah yes we do that...
 
-Mob
-One navigator, many drivers
-Navigator dumb typist
-Drivers are
+As part of my role as a principal dev, I run lunchtime coding dojos for some of the less experienced devs or those looking to move up to a dev role. This is a deliberate discovery setup where the goal is to learn something, not to complete a program. I started off setting a small programming problem each week and trying TDD in pairs and threes. This worked quite well until a chance conversation with Emily Bache turned me on to Randori style programming. What I found was the beginners got stuck very easily trying to write code as an inexperienced pair and would get bogged down in the wrong thing. Randori meant that we collapsed the pairs into a single group with the person who thought they could progress at the keyboard and the rest of the group would watch. That person would get stuck but someone else would be inspired by that idea and would take the keyboard and be able to add something else. And little by little we solved some problems, and devs progressed. 3 Test engineers are now developers thanks to that process. 
 
-Whole team ownership
+Meanwhile, Woody Zuill was hired at Hunter Industries to help a development team to improve their quality and deliver some projects. The team identified the shortcomings in their knowledge and so they took an action to meet for an hour each morning to do a dojo like activity to practice techniques like refactoring, they had a lunchtime study session for dev books. After each session the devs would return to their desks/silos and begin the real work of the day. What they found was they missed working as a group and discussed trying an experiment....
+
+Meanwhile...
+
+All through this gradual evolution of the dojo process I was using the socratic method to question what the group was thinking about - using questions to direct their thoughts to one thing or another. Also I encouraged the person typing to describe what it was that they were doing. But! I noticed that some people were reluctant to volunteer to type and were embarrassed to speak up, unsure of syntax etc. when all eyes were on them.
+
+So we decided to turn the randori style inside out and have the person at the keyboard be the person to just concentrate on typing with the person with the actual idea would dictate what to do. This meant that the person at the keyboard got to type in the language and got the syntax explained to them as they went along, the person with the idea got to struggle with expressing themselves clearly, and the rest of the group got to hear what they were thinking and contribute.
+
+This worked really well and has stayed as the model for our coding dojos. I was so proud of this that tweeted about this new invention and would came back with a "well actually?" Woody. Evil Genius Woody.
+
+And he told me all about what had been happening at Hunter. How the team had started working together as a group on their tasks almost full time and were getting great results! Curses another invention foiled.
+
+
+## XP++
+
+So what is Mob Programming? (that's a lovely bit of code you got there, it would be a pity if anything were to happen to it)
+
+Woody's quote says it best:
+
+"All the brilliant people working on the same thing, at the same time, in the same space..."
+
+"...and on the same computer"
+
+It's an extension of pair programming with the next highest collective nound being a "mob".
+
+One Driver (typist), a navigator, others.
+
+
+
+## Strong Style Pairing
+
+Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements. 
+
+
 
 Falco - Hunter Industries and Woody Zuill
-
-https://www.slideshare.net/llewellynfalco/mob-programming-75601033
-
-https://www.slideshare.net/llewellynfalco/strong-style-pairing
 
 https://www.youtube.com/watch?v=jaSSKAcYADk
 http://llewellynfalco.blogspot.co.uk/2014/06/llewellyns-strong-style-pairing.html
@@ -63,6 +85,208 @@ https://ndcoslo.com/workshop/mob-programming/
 
 
 https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
+
+
+
+
+
+
+# DDD North 2017 Married to the Mob (Programming)
+
+46 slides max, 45 minutes plus questions. breaks for interest, stories, keep in mind Medina's Law
+
+- Opener
+  - Thank you for being here
+  - Who I am
+  - Questions at any time
+  
+- 3 Important Questions
+  - What is mob programming?
+  - How do I do it?
+  - Is Woody Zuill an Evil Genius? 
+  - Strong Style as big take away
+
+- Agile
+  - Audience poll
+  
+- XP & Pairing
+  - Two devs sitting at a keyboard, swapping between them
+  - Driver has an idea of how to proceed and types code
+  - Navigator is thinking about the road ahead
+  - Swap when person stalls and other person has an idea
+  - One person typing their ideas, one person nodding along
+  - Not talking often
+  - How many people consider themselves XP?
+  - How many do some level of pairing?
+  - What do you find difficult about it?
+  - Who has tried it and didn't like it?
+  - Why didn't you like it?
+  
+  
+- Anti-Patterns
+  - Dev typing (not explaining verbally)
+  - Other Dev reading what is typed and making sense of it.
+  - Strong personalities
+  - Often see one person typing and another is the nodding dog.
+  - Dreyfuss Model of Skill Acquisition
+  - Pairing with Beginners
+  - Pairing Experts
+  - Pairing Expert and Senior
+
+  
+- What is Mob Programming - XP++
+  - That's some nice code you got there
+  - It would be a pity if anything happened to it
+  - Evolution of XP 
+    - Makes sense
+    - I have had a similar kind of thing
+  - Woody Quote
+  - Where > 3 people collaborate on a single computer to solve a problem or series of problems
+  - There are rules and guidelines
+  
+  
+- Rules
+  - Kindness 
+  - Consideration
+  - Respect
+
+- Guidelines
+  - Everyone has a role
+  - Swap roles every so often
+
+- Roles
+
+  - I don't like these two descriptors but...
+  - Driver or Typist
+    - Listen to what mob is asking
+    - Translate that to code
+    - Work with incomplete understanding at short intervals
+    - Patience!
+    - Don't premature challenge - leads endless discussions
+    - Write the code, talk about the code, change - arguments fall away
+  
+  - Rest of Mob
+    - Discover what the next logical step is
+    - Work collaboratively
+    - What is the next step and park everything else
+    - Talk at right level of abstraction for typist
+      - Inexperienced
+      - Synatax level
+      - Extract method
+      - Move to line, select lines, right click...
+      - Communication is difficult
+      - Challenge is hard to 
+      
+         - Responsible to help understanding
+    - If you don't understand - have courage to ask
+ 
+      
+  - Optional Navigator
+
+- Problems & Amplification
+  - Amplified learning
+  - 
+ - Shared understanding.
+    - Seeing code artefact
+    - Short periods of time
+    - Effective - typist duration is very small.
+    New mob nobody is in sync.
+ - Some teams hate typing - switching is easy
+ - Some with high trust - it's a finish the thought kind of thing
+ - Others need a physical timer to force a change
+   
+   
+- Environment
+  - Shyness
+  - Everyone must be able to see the screen
+  - Big screens
+  - Wireless keyboard and mouse
+  - Local laptop
+  
+- Other Approaches
+
+  - Mob testing
+
+
+- Teams
+
+  - LateRooms.com
+  - Hunter Industries
+  - Alaska Airlines
+  - Unruly Media
+  - Industrial Logic
+  - Menlo Innovations
+  
+  
+- Before I begin
+  - Not here to tell you that you have to do or this is the only way to do it
+  - But - It is possible and teams all over the world are doing it and having success.
+  - Alaska Airlines, Hunter Technologies, Unruly media, Late rooms
+  - Woody has hundreds of cases - travels the world advising teams
+  
+  
+  
+  
+- Research 
+
+  Research backs it up
+  A study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving.
+  Researchers compared the problem-solving performance of small groups to that of individuals working alone. 
+  The results of the study indicate that groups of three solve problems better than even the best individuals working alone.
+  What are the implications of these results? The findings may be useful in academics, where problem solving groups might serve as an effective learning tool. Groups and teams in science, health care, and business may also find these techniques useful as well.
+    
+  Bray et al
+   
+
+- Reading
+
+  - Bray, R. M., Kerr, N. L., & Atkin, R. S. (1978). "Effects of group size, problem difficulty, and sex on group performance and member reactions." Journal of Personality and Social Psychology, 36, 1224-1240.
+  - Rooksby, Hunt Wang, "Theory and Practice of randori coding dojos", 2014 http://johnrooksby.org/papers/XP2014_rooksby_dojo.pdf
+  - Wilson A, "Mob programming what works and what doesn't", Helsinki 2015 (Unruly Media)
+  - Hohman, M Slocum, A , "Mob Programming and the Transitiion to XP" (2001), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.2967&rep=rep1&type=pdf
+
+- Timers
+
+  - Mobster timer https://github.com/dillonkearns/mobster
+  
+  
+  http://mobprogramming.org/
+  https://agilegamesnewengland.com/index.php/mob-programming-conference
+  
+- Mob RPG Game
+  - Good guide to the roles and behaviours
+  - Need to run it on a code kata maybe?
+  - Willem Larsen https://github.com/willemlarsen/mobprogrammingrpg
+  
+- Takeaways
+  - Pair
+  - Do strong style pairing !!!
+  - Mob when you can - hard to do culture change to do full mobbing
+  - Mob ad-hoc seems to be good second best
+  - Hopfully it will catch on
+
+  
+- Closer
+  - Thank you for being here
+  - Hope it was useful
+  - Woody is back in UK in July 2018 
+  - Questions
+  - Feedback forms
+  
+  
+- Need To Work on:
+  - Story around (Need to work in my unimaginative steps)
+  - How to fit strong style pairing
+  - Isn't it just massively inefficient Pair programming?
+  - How is it different from Swarming? 
+  - Rubber Ducking 
+      Eliza bot 
+      https://rubberduckdebugging.com/cyberduck/
+      
+  - Jigsaw?
+  - Talk to Sarah or JP about mob testing
+  
+ 
 
 
 
