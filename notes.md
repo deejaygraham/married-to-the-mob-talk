@@ -93,7 +93,18 @@ Woody's quote says it best:
 It's an extension of pair programming with the next highest collective noun being a "mob".
 Turn up the good echoing XP
 
+## Things you will need
+
 There are rules and guidelines to follow.
+
+Mobbing components 
+Rules
+keyboard
+navigator
+mob
+keyboard
+big screen
+local laptop?
 
 
 ## Rules
@@ -149,13 +160,15 @@ Timer is the last member of the team
 
   - Optional Navigator
 
-## Environment
+## Environment components
   
   - Shyness
   - Everyone must be able to see the screen
   - Big screens
   - Wireless keyboard and mouse
-  - Local laptop
+  - Local laptop if like me you have a harder time looking with head at unnatural angle.
+
+
 
 
 ## Features
@@ -1000,10 +1013,13 @@ Pairing some styles
  Diligence in creating tests, refactoring, naming
 
 
-- Size
-3, 4 or more
+## Team Size
 
-Fails on tedious tasks or long running tests, admin tasks
+3, 4 or more. Larger sizes may get more chaotic, may need to delegate all information through a nominated navigator, as team size grows (like a dev meetup) then we may also need a facilitator for riot control. Opinions differ with team culture. Some find that 8 is the right size (full scrum team) and talk about 3-4 as a mini-mob. Research says 5 is a good number for problem solving.
+
+## Fail
+
+Fails on tedious tasks or long running tests, admin tasks. Amplification makes long tasks seem longer. Opportunity for someone to create a tool or to address it in some other way. 
 
 Mob testing
 Spreading knowledge
@@ -1014,7 +1030,6 @@ Different approaches in testing
 
 Discussion is good - don't want groupthink
 
-Mob size - mini mob is 3-4 people, others talk about that as a mob and 5 too many
 
 Team decision
 Idiomatic, wisdom of the group
@@ -1030,14 +1045,6 @@ Inconsistent coding
 accruing technical debt
 context switching
 Waiting for questions to be answered
-
-
-Mobbing components 
-keyboard
-navigator
-mob
-keyboard
-big screen
 
 
 Continuous Code Review
