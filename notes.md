@@ -103,30 +103,10 @@ There are rules and guidelines to follow.
   - Respect
   - Use strong style pairing (important)
 
-## Strong Style Pairing
-
-Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements. 
-
-"For an idea to go from your head into the computer it MUST go through someone else's hands"
-
-
-http://llewellynfalco.blogspot.co.uk/2014/06/llewellyns-strong-style-pairing.html
-
-http://visible-quality.blogspot.co.uk/2015/08/being-navigator-in-strong-style-pairing.html
-http://blog.xebia.com/practical-styles-of-pair-programming/
-
-
-
 ## Roles
 
 From the XP roles, we have a driver, and the rest of the mob. If the mob is particularly big you might need to direct efforts through single nominated navigator who changes when the driver changes. If it's bigger still you may need a facilitator too.
 Everyone in the team has a role and the roles swap amongst members of the team every few minutes.
-
-
-## Rubber Ducks
-
-Like rubber ducking, find faults by vocalising what you are thinking. Much better than thinking in own head.
-
 
 ## Guidelines
 
@@ -153,35 +133,72 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
          - Responsible to help understanding
     - If you don't understand - have courage to ask
  
-      
+      Driver
+At the keyboard
+Trust the navigator
+Computer of the SS enterprise
+
+Navigator
+Verbal instructions
+Talk at highest level of abstraction
+
+
+Facilitator?
+
+Timer is the last member of the team
+
   - Optional Navigator
 
-- Problems & Amplification
-  - Amplified learning
-  - 
- - Shared understanding.
-    - Seeing code artefact
-    - Short periods of time
-    - Effective - typist duration is very small.
-    New mob nobody is in sync.
- - Some teams hate typing - switching is easy
- - Some with high trust - it's a finish the thought kind of thing
- - Others need a physical timer to force a change
-   
-   
-- Environment
+## Environment
+  
   - Shyness
   - Everyone must be able to see the screen
   - Big screens
   - Wireless keyboard and mouse
   - Local laptop
-  
-- Other Approaches
-
-  - Mob testing
 
 
-- Teams
+## Features
+
+Amplified learning, easy for everyone to keep up to speed with problem being solved. 
+Amplified problems, slowness is amplified in tests, n x time for everyone. 
+ - Shared understanding.
+    - Seeing code artefact
+    - Short periods of time
+    - Effective - typist duration is very small.
+    New mob nobody is in sync.
+
+
+
+## Strong Style Pairing
+
+Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements. 
+
+"For an idea to go from your head into the computer it MUST go through someone else's hands"
+
+http://llewellynfalco.blogspot.co.uk/2014/06/llewellyns-strong-style-pairing.html
+
+http://visible-quality.blogspot.co.uk/2015/08/being-navigator-in-strong-style-pairing.html
+http://blog.xebia.com/practical-styles-of-pair-programming/
+
+
+## Rubber Ducks
+
+Like rubber ducking, find faults by vocalising what you are thinking. Much better than thinking in own head.
+
+## Tiredness Kills
+
+ - Some teams hate typing - switching is easy
+ - Some with high trust - it's a finish the thought kind of thing
+ - Others need a physical timer to force a change
+   
+   
+## Other Approaches
+
+Mob Testing - talk to Mike L about this.
+
+
+## Implemented by...
 
   - LateRooms.com
   - Hunter Industries
@@ -191,47 +208,10 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
   - Menlo Innovations
   
   
-- Before I begin
+## Takeaways
   - Not here to tell you that you have to do or this is the only way to do it
   - But - It is possible and teams all over the world are doing it and having success.
-  - Alaska Airlines, Hunter Technologies, Unruly media, Late rooms
   - Woody has hundreds of cases - travels the world advising teams
-  
-  
-  
-  
-- Research 
-
-  Research backs it up
-  A study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving.
-  Researchers compared the problem-solving performance of small groups to that of individuals working alone. 
-  The results of the study indicate that groups of three solve problems better than even the best individuals working alone.
-  What are the implications of these results? The findings may be useful in academics, where problem solving groups might serve as an effective learning tool. Groups and teams in science, health care, and business may also find these techniques useful as well.
-    
-  Bray et al
-   
-
-- Reading
-
-  - Bray, R. M., Kerr, N. L., & Atkin, R. S. (1978). "Effects of group size, problem difficulty, and sex on group performance and member reactions." Journal of Personality and Social Psychology, 36, 1224-1240.
-  - Rooksby, Hunt Wang, "Theory and Practice of randori coding dojos", 2014 http://johnrooksby.org/papers/XP2014_rooksby_dojo.pdf
-  - Wilson A, "Mob programming what works and what doesn't", Helsinki 2015 (Unruly Media)
-  - Hohman, M Slocum, A , "Mob Programming and the Transitiion to XP" (2001), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.2967&rep=rep1&type=pdf
-
-- Timers
-
-  - Mobster timer https://github.com/dillonkearns/mobster
-  
-  
-  http://mobprogramming.org/
-  https://agilegamesnewengland.com/index.php/mob-programming-conference
-  
-- Mob RPG Game
-  - Good guide to the roles and behaviours
-  - Need to run it on a code kata maybe?
-  - Willem Larsen https://github.com/willemlarsen/mobprogrammingrpg
-  
-- Takeaways
   - Pair
   - Do strong style pairing !!!
   - Mob when you can - hard to do culture change to do full mobbing
@@ -239,7 +219,39 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
   - Hopfully it will catch on
 
   
-- Closer
+## Research 
+
+Research backs it up, a study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving. Researchers compared the problem-solving performance of small groups to that of individuals working alone. 
+The results of the study indicate that groups of three solve problems better than even the best individuals working alone. What are the implications of these results? The findings may be useful in academics, where problem solving groups might serve as an effective learning tool. Groups and teams in science, health care, and business may also find these techniques useful as well.
+    
+
+## Resources
+
+### Books and Papers
+
+  - Bray, R. M., Kerr, N. L., & Atkin, R. S. (1978). "Effects of group size, problem difficulty, and sex on group performance and member reactions." Journal of Personality and Social Psychology, 36, 1224-1240.
+  - Rooksby, Hunt Wang, "Theory and Practice of randori coding dojos", 2014 http://johnrooksby.org/papers/XP2014_rooksby_dojo.pdf
+  - Wilson A, "Mob programming what works and what doesn't", Helsinki 2015 (Unruly Media)
+  - Hohman, M Slocum, A , "Mob Programming and the Transitiion to XP" (2001), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.2967&rep=rep1&type=pdf
+
+### Timers
+
+  - Mobster timer https://github.com/dillonkearns/mobster
+  https://github.com/MobProgramming/MobTimer.python
+  
+### Links
+
+  http://mobprogramming.org/
+  https://agilegamesnewengland.com/index.php/mob-programming-conference
+  - Mobster timer https://github.com/dillonkearns/mobster
+  
+### Mob RPG Game
+  - Good guide to the roles and behaviours
+  - Need to run it on a code kata maybe?
+  - Willem Larsen https://github.com/willemlarsen/mobprogrammingrpg
+
+  
+## Closer
   - Thank you for being here
   - Hope it was useful
   - Woody is back in UK in July 2018 
@@ -257,17 +269,6 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
       https://rubberduckdebugging.com/cyberduck/
       
   - Jigsaw?
-  - Talk to Sarah or JP about mob testing
-  
-
-Driver
-At the keyboard
-Trust the navigator
-Computer of the SS enterprise
-
-Navigator
-Verbal instructions
-Talk at highest level of abstraction
 
 
 Timer - switch to new keyboard every 5 minutes, 10 minutes
@@ -311,7 +312,7 @@ mob programming conference
 RPG
 Mobster timer github/dillonkearns/mobster
 
-timer github.com/MobProgramming/MobTImer.python
+timer 
 lewellyn falco strong style pairing
 
 TDD is easier
@@ -371,6 +372,11 @@ Respect
 Prevents name calling and derogatory remarks
 Norm Kerth's retrospective prime directive - every one is doing their best for theam 
 and have their own point of view.
+
+http://www.retrospectives.com/pages/retroPrimeDirective.html
+
+"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand." 	
+
 
 
 Guidelines
