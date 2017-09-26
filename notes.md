@@ -10,6 +10,8 @@ I am happy to take questions at any time.
 
 I would like to share what I have learned about the technique of Mob programming in the last 18 months or so. What is mob programming, how to do it, is Woody Zuill an evil genius? Also embedded in the middle of that is a overlooked technique which I think has some massive benefits and I will explore that later.
 
+Warning - there will be humblebrags or name dropping during this talk. Sorry.
+
 
 ## Agile
 
@@ -1023,6 +1025,8 @@ context switching
 Waiting for questions to be answered
 
 
+## Benefits
+
 Continuous Code Review
 Knowledge sharing
 Emergent design
@@ -1032,30 +1036,45 @@ Learning
 Inclusivity
 Truck numbers
 
-Tea and biscuits
-Pens and paper, whiteboard for parking
 
+
+# Equipment
+
+  - Whiteboard or pen and paper. Issues will arise and you need to be able to park them so you can come back (David Allen - you brain is for having ideas not for storing them).
+  
+
+# Directing the Driver
+Talk at the highest level of abstraction the person can understand. Concepts, programming constructs, down to syntax and punctuation if needed. Usually beginners in a language won't stay that way for long once they have seen enough people type and have practiced themselves. Talk about line numbers 
 
 Talk about line numbers
+
+# Remote working
+
 Mobbing remotely, just google hangouts, even done it via github where we can remotely change a doc in browser and have 
-online build and test.
+online build and test using Travis CI or similar.
 
-not everything is suitable for a mob
-repetitive tasks - tools or just crunch through (headphones and head down)
 
-# tiredness kills
-Don;t let or make one person drive too long
+# dojo
 
-Avoid rabbit holes
+Emily Bache Randori style dojoing
+
+## Remoting
+
+We do some remote work which just sometimes means the person remote is only ever a navigator and never a typist because of lag in the network but I have done some mobbing where we are working with Github and using the web interface to check in code directly in browser then using 
+# Fail
+
+Not everything is suitable for a mob. Repetitive tasks where you wnat to just put on headphones and crunch through it. Admin tasks. Lengthy testing tasks, is it possible to automate and have it be faster next time?  
+
+
+## Watch out for
+
+### tiredness kills
+  Don't let or make one person drive too long
+
+Avoid rabbit holes use the group to stay on track
+
+
+## Going Forward
 
 Not mandatory - it might work for you, consider it
-
-
-
-Pair -> Swarm -> Mob
-
-Code club / dojo
-
-Emily Bache Randori style dojo
-
-
+This is how I prefer to work at work and how I run all of our coding dojos.
