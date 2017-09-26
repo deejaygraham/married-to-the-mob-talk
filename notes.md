@@ -261,6 +261,8 @@ The results of the study indicate that groups of three solve problems better tha
   - Wilson A, "Mob programming what works and what doesn't", Helsinki 2015 (Unruly Media)
   - Hohman, M Slocum, A , "Mob Programming and the Transitiion to XP" (2001), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.2967&rep=rep1&type=pdf
 
+- Maaret and LLewellyn - mob programming guidebook - https://leanpub.com/mobprogrammingguidebook
+
 ### Timers
 
   - Mobster timer https://github.com/dillonkearns/mobster
@@ -808,9 +810,6 @@ Waterfall
 - Non coders
 - Other approaches
 
-- Links
-- Woody Ebook on leanpub - mobprogramming
-- Maaret and LLewellyn - mob programming guidebook - https://leanpub.com/mobprogrammingguidebook
 
 
 - Swap every n minutes
@@ -818,62 +817,7 @@ Waterfall
 
 
 
-Role
 
-Driver
-
-Ask a clarifying question about what to type
-Type something you disagree with
-Use a new keyboard shortcut
-Learn something new about tooling
-Ignore a direct instruction from someone who isn't the Navigator
-
-Navigator
-
-Ask for ideas
-Filter the mob's ideas then tell the Driver exactly what to type
-Tell the Driver only your high-level intent and have them implement the details
-Create a failing test. Make it pass. Refactor.
-
-Mobber
-
-Yield to the less privileged voice
-Contribute an idea
-Ask questions till you understand
-Listen on the edge of your seat
-
-Researcher
-
-Find and share relevant information from documentation
-Find and share relevant information from a blog
-Find and share relevant information from a coding forum
-
-Sponsor
-
-Amplify the unheard voice
-Pick the mobber with the least privilege (gender/race/class/seniority/etc) and support their contributions
-Celebrate moments of excellence
-
-Rear Admiral
-
-Quietly speak into the navigators ear
-Give the smallest cue necessary to move the Navigator forward through the problem
-Navigate the navigator at the highest level of abstraction they can successfully implement
-
-Automationist
-
-Point out a repeated task in a tool
-Point out a repeated aspect of team process
-Point out possible boiler plate code
-Propose an automation for a repeated task
-
-Nose
-
-Point out a long line of code
-Point out a complex conditional
-Point out duplication
-Point out an unnamed variable or method
-Propose an action for deodorizing the code
 
 Working together, not working individually and getting together to scrum
 
@@ -935,8 +879,7 @@ Mobbing
 - Purpose Mastery Autonomy
 
 
-
-Training from the back of the room
+## Teams
 
 Design Studio method
 Orchestras
@@ -959,37 +902,27 @@ Pairing some styles
  Typing person has idea. and is typing into the keyboard, not description
  Other person is reading back from screen
  Not good tranlation
- 
- Flow being in the zone, Mihaly Chiczhemis
- 
- At keyboard for a few minutes at a time
- QUality of thought is more important than quality of typing.
- 
- SQL, C#, Javascript, Html
- Shared cognitive burden
- Work on bigger problems. 
- 
- 
+  
+  
+## Driver
 
+ At keyboard for a few minutes at a time
+ 
+## Isn't this just a collosally expensive pairing
+
+ QUality of thought is more important than quality of typing.
+
+
+## De Mobbing
+
+Break out for research
  
  
- Learn from each other
- 
- 
- Swarming chaotic and unstructured
- Mob is more formal
- disciplined
- 
- Break out for 
- 
- Knowledge sharing for new members. Harde to understnad object model
- Easy to pick up idioms, teach history of app
+ ## Push back
  
  Management skepticism
- - If it works
+ - At sage, if it works then continue to do it.
  
- Diligence in creating tests, refactoring, naming
-
 
 ## Team Size
 
@@ -999,21 +932,32 @@ Pairing some styles
 
 Fails on tedious tasks or long running tests, admin tasks. Amplification makes long tasks seem longer. Opportunity for someone to create a tool or to address it in some other way. 
 
-Mob testing
+## Reasons to mob
+
 Spreading knowledge
 Experimenting
 Lowert knowledge
 Different approaches in testing
 
+ Learn from each other
+IDE coding tips - like my alt mouse select to select a block of text horizontally and vertically
 
 Discussion is good - don't want groupthink
-
-
 Team decision
 Idiomatic, wisdom of the group
 Not follows a persons personality
 Features takes a shorter amount of time
+Diligence in creating tests, refactoring, naming
 
+Knowledge sharing for new members. Harde to understnad object model
+ Easy to pick up idioms, teach history of app
+ 
+  SQL, C#, Javascript, Html
+ Shared cognitive burden
+ Work on bigger problems. 
+ 
+ 
+## Productivity Blockers
 
 Reasons for frustration
 Information silos
@@ -1038,30 +982,27 @@ Truck numbers
 
 
 
-# Equipment
+## Equipment
 
   - Whiteboard or pen and paper. Issues will arise and you need to be able to park them so you can come back (David Allen - you brain is for having ideas not for storing them).
   
 
-# Directing the Driver
-Talk at the highest level of abstraction the person can understand. Concepts, programming constructs, down to syntax and punctuation if needed. Usually beginners in a language won't stay that way for long once they have seen enough people type and have practiced themselves. Talk about line numbers 
+## Directing the Driver
 
-Talk about line numbers
-
-# Remote working
-
-Mobbing remotely, just google hangouts, even done it via github where we can remotely change a doc in browser and have 
-online build and test using Travis CI or similar.
+Talk at the highest level of abstraction the person can understand. Concepts, programming constructs, down to syntax and punctuation if needed. Usually beginners in a language won't stay that way for long once they have seen enough people type and have practiced themselves. Talk about line numbers
 
 
 # dojo
 
 Emily Bache Randori style dojoing
 
+
 ## Remoting
 
-We do some remote work which just sometimes means the person remote is only ever a navigator and never a typist because of lag in the network but I have done some mobbing where we are working with Github and using the web interface to check in code directly in browser then using 
-# Fail
+We do some remote work with telepresence or google hangouts which just sometimes means the person remote is only ever a navigator and never a typist because of lag in the network but I have done some mobbing where we are working with Github and using the web interface to check in code directly in browser then using online build and test tools like Travis CI.
+
+
+## Fail
 
 Not everything is suitable for a mob. Repetitive tasks where you wnat to just put on headphones and crunch through it. Admin tasks. Lengthy testing tasks, is it possible to automate and have it be faster next time?  
 
