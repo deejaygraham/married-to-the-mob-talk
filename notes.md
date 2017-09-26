@@ -122,6 +122,7 @@ Everyone in the team has a role and the roles swap amongst members of the team e
 ## Guidelines
 
   - Driver or Typist
+  Driver is the least interesting piece of this whole arrangement. You are the person 
     - Listen to what mob is asking
     - Translate that to code
     - Work with incomplete understanding at short intervals
@@ -157,6 +158,7 @@ Talk at highest level of abstraction
 Facilitator?
 
 Timer is the last member of the team
+Timer - switch to new keyboard every 5 minutes, 10 minutes
 
   - Optional Navigator
 
@@ -180,6 +182,14 @@ Amplified problems, slowness is amplified in tests, n x time for everyone.
     - Short periods of time
     - Effective - typist duration is very small.
     New mob nobody is in sync.
+
+## What it is not
+
+Not solo programming with an audience
+Rockstar pirate ninja
+
+
+For me the most interesting part of mob programming is the way it turns pairing inside out. Here's an example mob
 
 
 
@@ -210,6 +220,7 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
 
 Mob Testing - talk to Mike L about this.
 
+Mob RPG
 
 ## Implemented by...
 
@@ -219,6 +230,7 @@ Mob Testing - talk to Mike L about this.
   - Unruly Media
   - Industrial Logic
   - Menlo Innovations
+  - Blue Fruit  
   
   
 ## Takeaways
@@ -284,7 +296,7 @@ The results of the study indicate that groups of three solve problems better tha
   - Jigsaw?
 
 
-Timer - switch to new keyboard every 5 minutes, 10 minutes
+
 
 keyboard is not hard work, navigators have harder work.
 
@@ -301,32 +313,10 @@ reflection !!! -> Learning
 
 Loudest voice
 Navigator
-Mob the RPG
-
-Mob Timer - Start Mobbing Driver, Mobber, Mobber, Navigator
-
-Roles
-
-Driver
 
 
-Navigator
-
-
-Mobber
-
-Not solo programming with an audience
 Its fun
 
-
-Resourced
-
-mob programming conference
-RPG
-Mobster timer github/dillonkearns/mobster
-
-timer 
-lewellyn falco strong style pairing
 
 TDD is easier
 Red
@@ -357,7 +347,6 @@ Increase levels of understanding
 
 
 Woody father of mob. 
-Treat people with kindness consideration and respect
 
 fundamental attribution error
 - I broke the build because of reasons, you broke the build because you're a terrible person.
@@ -411,7 +400,7 @@ How did the day go, week go
 
 
 
-Turns Pair programming inside out
+
 Continuous code review
 Longer ability to focus
 attention to detail
@@ -540,16 +529,7 @@ Pair programming
  Keyboard
  Hunter pix 12 teams
  
-Timer
-- Rotate keyboard
-- 
-
-Pic of big screen
-
-
- 
-Excites me about using learning - training from the back of the room.
-
+Emodies some of the approaches used in cutting-edge education practices - training from the back of the room.
 
 
 - Session will answer
@@ -988,11 +968,7 @@ Pairing some styles
  Work on bigger problems. 
  
  
- 
- Alaska Airlines
- Hunter Industries
- Unruly Media
- Blue Fruit
+
  
  
  Learn from each other
