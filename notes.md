@@ -10,6 +10,8 @@ I am happy to take questions at any time.
 
 I would like to share what I have learned about the technique of Mob programming in the last 18 months or so. What is mob programming, how to do it, is Woody Zuill an evil genius? Also embedded in the middle of that is a overlooked technique which I think has some massive benefits and I will explore that later.
 
+Warning - there will be humblebrags or name dropping during this talk. Sorry.
+
 
 ## Agile
 
@@ -122,6 +124,7 @@ Everyone in the team has a role and the roles swap amongst members of the team e
 ## Guidelines
 
   - Driver or Typist
+  Driver is the least interesting piece of this whole arrangement. You are the person 
     - Listen to what mob is asking
     - Translate that to code
     - Work with incomplete understanding at short intervals
@@ -157,6 +160,7 @@ Talk at highest level of abstraction
 Facilitator?
 
 Timer is the last member of the team
+Timer - switch to new keyboard every 5 minutes, 10 minutes
 
   - Optional Navigator
 
@@ -180,6 +184,14 @@ Amplified problems, slowness is amplified in tests, n x time for everyone.
     - Short periods of time
     - Effective - typist duration is very small.
     New mob nobody is in sync.
+
+## What it is not
+
+Not solo programming with an audience
+Rockstar pirate ninja
+
+
+For me the most interesting part of mob programming is the way it turns pairing inside out. Here's an example mob
 
 
 
@@ -210,6 +222,7 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
 
 Mob Testing - talk to Mike L about this.
 
+Mob RPG
 
 ## Implemented by...
 
@@ -219,6 +232,7 @@ Mob Testing - talk to Mike L about this.
   - Unruly Media
   - Industrial Logic
   - Menlo Innovations
+  - Blue Fruit  
   
   
 ## Takeaways
@@ -246,6 +260,8 @@ The results of the study indicate that groups of three solve problems better tha
   - Rooksby, Hunt Wang, "Theory and Practice of randori coding dojos", 2014 http://johnrooksby.org/papers/XP2014_rooksby_dojo.pdf
   - Wilson A, "Mob programming what works and what doesn't", Helsinki 2015 (Unruly Media)
   - Hohman, M Slocum, A , "Mob Programming and the Transitiion to XP" (2001), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.2967&rep=rep1&type=pdf
+
+- Maaret and LLewellyn - mob programming guidebook - https://leanpub.com/mobprogrammingguidebook
 
 ### Timers
 
@@ -284,7 +300,7 @@ The results of the study indicate that groups of three solve problems better tha
   - Jigsaw?
 
 
-Timer - switch to new keyboard every 5 minutes, 10 minutes
+
 
 keyboard is not hard work, navigators have harder work.
 
@@ -301,32 +317,10 @@ reflection !!! -> Learning
 
 Loudest voice
 Navigator
-Mob the RPG
-
-Mob Timer - Start Mobbing Driver, Mobber, Mobber, Navigator
-
-Roles
-
-Driver
 
 
-Navigator
-
-
-Mobber
-
-Not solo programming with an audience
 Its fun
 
-
-Resourced
-
-mob programming conference
-RPG
-Mobster timer github/dillonkearns/mobster
-
-timer 
-lewellyn falco strong style pairing
 
 TDD is easier
 Red
@@ -357,7 +351,6 @@ Increase levels of understanding
 
 
 Woody father of mob. 
-Treat people with kindness consideration and respect
 
 fundamental attribution error
 - I broke the build because of reasons, you broke the build because you're a terrible person.
@@ -411,7 +404,7 @@ How did the day go, week go
 
 
 
-Turns Pair programming inside out
+
 Continuous code review
 Longer ability to focus
 attention to detail
@@ -540,16 +533,7 @@ Pair programming
  Keyboard
  Hunter pix 12 teams
  
-Timer
-- Rotate keyboard
-- 
-
-Pic of big screen
-
-
- 
-Excites me about using learning - training from the back of the room.
-
+Emodies some of the approaches used in cutting-edge education practices - training from the back of the room.
 
 
 - Session will answer
@@ -826,9 +810,6 @@ Waterfall
 - Non coders
 - Other approaches
 
-- Links
-- Woody Ebook on leanpub - mobprogramming
-- Maaret and LLewellyn - mob programming guidebook - https://leanpub.com/mobprogrammingguidebook
 
 
 - Swap every n minutes
@@ -836,62 +817,7 @@ Waterfall
 
 
 
-Role
 
-Driver
-
-Ask a clarifying question about what to type
-Type something you disagree with
-Use a new keyboard shortcut
-Learn something new about tooling
-Ignore a direct instruction from someone who isn't the Navigator
-
-Navigator
-
-Ask for ideas
-Filter the mob's ideas then tell the Driver exactly what to type
-Tell the Driver only your high-level intent and have them implement the details
-Create a failing test. Make it pass. Refactor.
-
-Mobber
-
-Yield to the less privileged voice
-Contribute an idea
-Ask questions till you understand
-Listen on the edge of your seat
-
-Researcher
-
-Find and share relevant information from documentation
-Find and share relevant information from a blog
-Find and share relevant information from a coding forum
-
-Sponsor
-
-Amplify the unheard voice
-Pick the mobber with the least privilege (gender/race/class/seniority/etc) and support their contributions
-Celebrate moments of excellence
-
-Rear Admiral
-
-Quietly speak into the navigators ear
-Give the smallest cue necessary to move the Navigator forward through the problem
-Navigate the navigator at the highest level of abstraction they can successfully implement
-
-Automationist
-
-Point out a repeated task in a tool
-Point out a repeated aspect of team process
-Point out possible boiler plate code
-Propose an automation for a repeated task
-
-Nose
-
-Point out a long line of code
-Point out a complex conditional
-Point out duplication
-Point out an unnamed variable or method
-Propose an action for deodorizing the code
 
 Working together, not working individually and getting together to scrum
 
@@ -953,8 +879,7 @@ Mobbing
 - Purpose Mastery Autonomy
 
 
-
-Training from the back of the room
+## Teams
 
 Design Studio method
 Orchestras
@@ -977,41 +902,27 @@ Pairing some styles
  Typing person has idea. and is typing into the keyboard, not description
  Other person is reading back from screen
  Not good tranlation
- 
- Flow being in the zone, Mihaly Chiczhemis
- 
+  
+  
+## Driver
+
  At keyboard for a few minutes at a time
+ 
+## Isn't this just a collosally expensive pairing
+
  QUality of thought is more important than quality of typing.
- 
- SQL, C#, Javascript, Html
- Shared cognitive burden
- Work on bigger problems. 
- 
- 
- 
- Alaska Airlines
- Hunter Industries
- Unruly Media
- Blue Fruit
+
+
+## De Mobbing
+
+Break out for research
  
  
- Learn from each other
- 
- 
- Swarming chaotic and unstructured
- Mob is more formal
- disciplined
- 
- Break out for 
- 
- Knowledge sharing for new members. Harde to understnad object model
- Easy to pick up idioms, teach history of app
+ ## Push back
  
  Management skepticism
- - If it works
+ - At sage, if it works then continue to do it.
  
- Diligence in creating tests, refactoring, naming
-
 
 ## Team Size
 
@@ -1021,21 +932,32 @@ Pairing some styles
 
 Fails on tedious tasks or long running tests, admin tasks. Amplification makes long tasks seem longer. Opportunity for someone to create a tool or to address it in some other way. 
 
-Mob testing
+## Reasons to mob
+
 Spreading knowledge
 Experimenting
 Lowert knowledge
 Different approaches in testing
 
+ Learn from each other
+IDE coding tips - like my alt mouse select to select a block of text horizontally and vertically
 
 Discussion is good - don't want groupthink
-
-
 Team decision
 Idiomatic, wisdom of the group
 Not follows a persons personality
 Features takes a shorter amount of time
+Diligence in creating tests, refactoring, naming
 
+Knowledge sharing for new members. Harde to understnad object model
+ Easy to pick up idioms, teach history of app
+ 
+  SQL, C#, Javascript, Html
+ Shared cognitive burden
+ Work on bigger problems. 
+ 
+ 
+## Productivity Blockers
 
 Reasons for frustration
 Information silos
@@ -1047,6 +969,8 @@ context switching
 Waiting for questions to be answered
 
 
+## Benefits
+
 Continuous Code Review
 Knowledge sharing
 Emergent design
@@ -1056,30 +980,42 @@ Learning
 Inclusivity
 Truck numbers
 
-Tea and biscuits
-Pens and paper, whiteboard for parking
 
 
-Talk about line numbers
-Mobbing remotely, just google hangouts, even done it via github where we can remotely change a doc in browser and have 
-online build and test.
+## Equipment
 
-not everything is suitable for a mob
-repetitive tasks - tools or just crunch through (headphones and head down)
+  - Whiteboard or pen and paper. Issues will arise and you need to be able to park them so you can come back (David Allen - you brain is for having ideas not for storing them).
+  
 
-# tiredness kills
-Don;t let or make one person drive too long
+## Directing the Driver
 
-Avoid rabbit holes
+Talk at the highest level of abstraction the person can understand. Concepts, programming constructs, down to syntax and punctuation if needed. Usually beginners in a language won't stay that way for long once they have seen enough people type and have practiced themselves. Talk about line numbers
+
+
+# dojo
+
+Emily Bache Randori style dojoing
+
+
+## Remoting
+
+We do some remote work with telepresence or google hangouts which just sometimes means the person remote is only ever a navigator and never a typist because of lag in the network but I have done some mobbing where we are working with Github and using the web interface to check in code directly in browser then using online build and test tools like Travis CI.
+
+
+## Fail
+
+Not everything is suitable for a mob. Repetitive tasks where you wnat to just put on headphones and crunch through it. Admin tasks. Lengthy testing tasks, is it possible to automate and have it be faster next time?  
+
+
+## Watch out for
+
+### tiredness kills
+  Don't let or make one person drive too long
+
+Avoid rabbit holes use the group to stay on track
+
+
+## Going Forward
 
 Not mandatory - it might work for you, consider it
-
-
-
-Pair -> Swarm -> Mob
-
-Code club / dojo
-
-Emily Bache Randori style dojo
-
-
+This is how I prefer to work at work and how I run all of our coding dojos.
