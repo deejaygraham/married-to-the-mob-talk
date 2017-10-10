@@ -1,173 +1,226 @@
-# DDD North 2017 Married to the Mob (Programming)
+# Married to the Mob (Programming)
 
-46 slides max, 45 minutes plus questions. breaks for interest, stories, keep in mind Medina's Law
+## DDD North October 2017
 
 - Opener
   - Thank you for being here
   - Who I am
   - Questions at any time
-  
-- 3 Important Questions
-  - What is mob programming?
-  - How do I do it?
-  - Is Woody Zuill an Evil Genius? 
-  - Strong Style as big take away
+  - Who is XP-er?
+  - Who is Agile-er?
+  - Who is mobbing?
 
-- Agile
-  - Audience poll
-  
-- XP & Pairing
-  - Two devs sitting at a keyboard, swapping between them
-  - Driver has an idea of how to proceed and types code
-  - Navigator is thinking about the road ahead
-  - Swap when person stalls and other person has an idea
-  - One person typing their ideas, one person nodding along
-  - Not talking often
-  - How many people consider themselves XP?
-  - How many do some level of pairing?
-  - What do you find difficult about it?
-  - Who has tried it and didn't like it?
-  - Why didn't you like it?
-  
-  
-- Anti-Patterns
-  - Dev typing (not explaining verbally)
-  - Other Dev reading what is typed and making sense of it.
-  - Strong personalities
-  - Often see one person typing and another is the nodding dog.
-  - Dreyfuss Model of Skill Acquisition
-  - Pairing with Beginners
-  - Pairing Experts
-  - Pairing Expert and Senior
-
-  
-- What is Mob Programming - XP++
-  - That's some nice code you got there
-  - It would be a pity if anything happened to it
-  - Evolution of XP 
-    - Makes sense
-    - I have had a similar kind of thing
-  - Woody Quote
+- What is it?
+  - Single Programmer
+  - XP Pairing - Driver and Navigator - rotate? Problems - strong personalities, not talking
+  - Swarming
+  - Mobbing = XP++
   - Where > 3 people collaborate on a single computer to solve a problem or series of problems
   - There are rules and guidelines
-  
-  
-- Rules
-  - Kindness 
-  - Consideration
-  - Respect
+  - Definition
+  - Woody's Definition
+  - Rachel quote
+  - What it's not - chance for you to show off coding skills to an audience
+  - Strong accomplished teams, start to finish on a feature
+  - Everyone has a part of the solution. Shared pain - something is taking too long - someone can build a tool.
 
-- Guidelines
-  - Everyone has a role
-  - Swap roles every so often
+- Mechanics
+  - Single set of input devices
+  - Whole team can see screen
+  - Each person has a role
+  - Roles rotate in the team
 
 - Roles
+  - XP - Driver and Navigator metaphor, driver active, navigator passive
+  - Mob turns that Inside out
+  - Driver
+  - Navigator(s)
+  - Facilitator (if group too large or to get started)
 
-  - I don't like these two descriptors but...
-  - Driver or Typist
-    - Listen to what mob is asking
-    - Translate that to code
-    - Work with incomplete understanding at short intervals
-    - Patience!
-    - Don't premature challenge - leads endless discussions
-    - Write the code, talk about the code, change - arguments fall away
-  
-  - Rest of Mob
-    - Discover what the next logical step is
-    - Work collaboratively
-    - What is the next step and park everything else
-    - Talk at right level of abstraction for typist
-      - Inexperienced
-      - Synatax level
-      - Extract method
-      - Move to line, select lines, right click...
-      - Communication is difficult
-      - Challenge is hard to 
-      
-         - Responsible to help understanding
-    - If you don't understand - have courage to ask
- 
-      
-  - Optional Navigator
+- Rules
+  - KCR
+    - spending a lot of time together (woody quotes)
+    - different approaches, knowledge experience
+    - Fundamental attribution error
+  - Kerth's Prime Directive (Respect)
 
-- Problems & Amplification
-  - Amplified learning
-  - 
- - Shared understanding.
-    - Seeing code artefact
-    - Short periods of time
-    - Effective - typist duration is very small.
-    New mob nobody is in sync.
- - Some teams hate typing - switching is easy
- - Some with high trust - it's a finish the thought kind of thing
- - Others need a physical timer to force a change
-   
-   
-- Environment
-  - Shyness
-  - Everyone must be able to see the screen
-  - Big screens
-  - Wireless keyboard and mouse
+  - Yes and... from improve. for ideas in coding and ... ?
+  - Strong Style Pairing
+
+- Driver or Typist
+  - XP driver is doing hard work. In Mob he has the easy job
+  - Listen to what mob is asking
+  - Translate that to code
+  - Work with incomplete understanding at short intervals
+  - Patience!
+  - Don't premature challenge - leads endless discussions
+  - Write the code, talk about the code, change - arguments fall away
+  - If you have the keyboard, you can't have the ideas.
+
+- Rest of Mob
+  - Discover what the next logical step is
+  - Work collaboratively
+  - What is the next step and park everything else
+  - Talk at right level of abstraction for typist
+    - Inexperienced
+    - Syntax level
+    - Extract method
+    - Move to line, select lines, right click...
+    - Communication is difficult
+    - Challenge is hard to
+
+       - Responsible to help understanding
+  - If you don't understand - have courage to ask
+  - Sit on your hands!
+  - Ideal team size seems to be 5
+
+- Mob Environment
+  - Screen or Projector
+  - Keyboard and mouse
+  - Seating
+  - Whiteboard, pen and paper for rabbit holes
   - Local laptop
-  
+  - Github, RDP or laptop plugged in.
+  - Other computers are allowed - research, deployment, testing, email. Not for checkins
+
+- Role Rotation
+  - Tiredness Kills
+  - Take break
+  - Levels of trust
+  - Hate typing - switching is easy
+  - Physical intervention - timer, egg timer, pomodoro, or software timer.
+
+- Working as a Team
+  - Testers
+  - Business Analysts
+  - Experts - don't give them the keyboard.
+
+- What to Expect
+  - Scary talking and coding in front of people
+  - Tiring
+  - Loud
+  - Shyness
+  - Dev weaknesses
+  - Lots of shouting out
+  - Excitement
+  - Disturbing other teams
+  - Beware rabbit holes
+  - Loss of individual contribution (may not work for Jira)
+  - Solo is faster to ship but not in overall scheme of lifetime.
+  - Major cost in production is defects and maintenance
+  - Time spent overall is less due to improved quality
+
+- Benefits
+  - Constant Code review
+  - Learning
+  - Code Styles and Standards
+  - Correctness
+  - Readability
+  - Dry, SOLID etc.
+  - Super short feedback loop
+  - Truck number
+  - Help
+  - Task completion
+  - Reduced handoffs
+  - Whole team ownership
+  - No standup
+
+- Amplification
+  - Good and bad
+  - Makes bad code or bad tests obvious
+  - Makes slow code obvious
+  - Manual processes.
+  - TDD is easier
+  - Spreads the load, meetings, illness, holidays
+  - Spreads the load - someone is thinking scope, security, performance, deployment, design efficiency
+  - Whole team ownership - it's our code.
+  - Perform better in front of peers
+  - everyone learns something
+  - productivity can be slow to start - team forming
+  - shared understanding improved
+  - Continuous code review - readability (clean code ambiguous)
+  - Reduces truck number
+  - No standups - saved time
+  - Team building
+  - Productivity - no context switching
+  - Half baked ideas can be shared and developed - not fully implemented or discarded.
+  - More interesting
+  - Fun
+  - Talking !
+
+
+  - My team noticed swarming and mobbing as first time acted and felt like a team
+
+- Productivity Blockers
+
+  - Reasons for frustration
+  - Information silos
+  - Too many meetings
+  - Testing or reviewing too late
+  - Inconsistent coding
+  - accruing technical debt
+  - context switching
+  - Waiting for questions to be answered
+
+- Good for
+  - Green field
+  - Onboarding new people
+  - Difficult work
+  - Problem solving
+
+- Not good for
+  - Short tasks
+  - Dev Ops(pair)
+  - JFDI
+
+- Disagreements and Uncertainty
+  - Try writing the code - timebox crazy ideas. Try it, discuss and always roll it back.
+  - Discuss it
+  - Timebox
+  - Investigation spikes
+  - Research
+  - Optional no coercion- stay if you are learning or contributing otherwise find something else useful to do.
+
+- Slow down
+  - Concentrate on doing the right thing and doing the thing right.
+
+- Inspecting and Adapting
+  - Retrospectives - quick huddle
+  - Each day
+  - Each week
+  - How are we doing, what's easy, what's hard?
+  - Fix frustrations if you can.
+  - Concentrate on what we can do better - turn up the good.
+
+- Strong Style Pairing
+  - Who has done Rubber duck debugging ?
+  https://rubberduckdebugging.com/cyberduck/
+  Rubber Duck debugging - why so easy - if you think through the problem easy to skip steps or assumptions - easy to fool yourself. If you talk it through, you actually force yourself to listen and are more skeptical about what you are saying. Verbalising fixes the bug in our brains where we short-circuit our thought processes.
+  - Pragmatic Programmers
+  - Driver has easy job, navigators have hard job of verbalising.
+  - Llewellyn Falco formalized into mob programming while working with Woody.
+  - Use this for immediate improvements.
+  - LF quote
+
+- Demonstration
+  - Fizz buzz microbit
+
 - Other Approaches
+  - Mob testing Mike L
 
-  - Mob testing
-
-
-- Teams
-
-  - LateRooms.com
-  - Hunter Industries
-  - Alaska Airlines
-  - Unruly Media
-  - Industrial Logic
-  - Menlo Innovations
-  
-  
-- Before I begin
-  - Not here to tell you that you have to do or this is the only way to do it
-  - But - It is possible and teams all over the world are doing it and having success.
-  - Alaska Airlines, Hunter Technologies, Unruly media, Late rooms
-  - Woody has hundreds of cases - travels the world advising teams
-  
-  
-  
-  
-- Research 
-  - Psychology study - teams up to 3 people - solve ordinary problems defined by smartest person.
-  
+- Mob Friendly Teams
 
 - Resources
-  - WebSites  
-  - Papers
-  - Books
-  - Github
-    - RPG Game
-    - Timers
-  
+
 - Takeaways
-  - Pairing
+  - Try it and expect to evolve
+  - Culture change is hard
+  - Flash Mob when you can
   - Do strong style pairing !!!
-  - Adhoc Mob when you can - hard to do culture change to do full mobbing
-  - Mob ad-hoc seems to be good second best
-  
+
+- Questions
+
 - Closer
   - Thank you for being here
-  - Woody is back in UK in July 2018 
-  - Questions
   - Feedback forms
-  
-  
-- Need To Work on:
-  - Story around (Need to work in my unimaginative steps)
-  - How to fit strong style pairing
-  - Isn't it just massively inefficient Pair programming?
-  - How is it different from Swarming? 
-  - Rubber Ducking 
-      Eliza bot 
-      https://rubberduckdebugging.com/cyberduck/
-      
-  - Jigsaw?
-  - Talk to Sarah or JP about mob testing
-
+  - Woody is back in UK in July 2018

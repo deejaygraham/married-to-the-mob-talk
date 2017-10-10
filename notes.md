@@ -2,32 +2,11 @@
 
 ## Intro
 
-Thank you for being here, I realise I am standing between you and lunch.
-
-Who I am - principal dev, sage, run local meetup groups .net and agile. Also lead Makers and Creators at Campus North
-
-I am happy to take questions at any time.
-
-I would like to share what I have learned about the technique of Mob programming in the last 18 months or so. What is mob programming, how to do it, is Woody Zuill an evil genius? Also embedded in the middle of that is a overlooked technique which I think has some massive benefits and I will explore that later.
-
-Warning - there will be humblebrags or name dropping during this talk. Sorry.
-
-
-## Agile
-
-Who here considers they are working in an agile way? 
-  - Scrum?
-  - Standups?
-  - Sprints?
-  - Retrospectives?
-  - Code Reviews?
-  - Pairing?
-
 
 ## Tradition
 
 Lone developer working in cube/silo and having a comparatively long feedback loop between writing code and having it used.
-Mitigations for that are code review, quality gates, various QA strategies - mainly manual testing, demonstration and sign offs at the end of the project. All kinds of Kubuki because of big batch size. 
+Mitigations for that are code review, quality gates, various QA strategies - mainly manual testing, demonstration and sign offs at the end of the project. All kinds of Kubuki because of big batch size.
 
 
 - XP & Pairing
@@ -42,8 +21,8 @@ Mitigations for that are code review, quality gates, various QA strategies - mai
   - What do you find difficult about it?
   - Who has tried it and didn't like it?
   - Why didn't you like it?
-  
-  
+
+
 - Anti-Patterns
   - Dev typing (not explaining verbally)
   - Other Dev reading what is typed and making sense of it.
@@ -56,7 +35,7 @@ Mitigations for that are code review, quality gates, various QA strategies - mai
 
 
 
-## XP 
+## XP
 XP came along to try and resolve some of those issues and shorten the feedback loop - code review gets done all the time with pairing, continuous integration gives feedback on build issues, automated tests, smoke tests give quick feedback on overall quality (although not a guarantee). Smaller batches.
 
 https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
@@ -66,7 +45,7 @@ https://www.youtube.com/watch?v=unDxq76JcvE XP Turns 20
 
 Least original person - Come up with all kinds of good ideas. Invented ReST after it had been invented. Invented something like No Estimates - twitter told me I hadn't invented it. Refactoring techniques - Woody - Ah yes we do that...
 
-As part of my role as a principal dev, I run lunchtime coding dojos for some of the less experienced devs or those looking to move up to a dev role. This is a deliberate discovery setup where the goal is to learn something, not to complete a program. I started off setting a small programming problem each week and trying TDD in pairs and threes. This worked quite well until a chance conversation with Emily Bache turned me on to Randori style programming. What I found was the beginners got stuck very easily trying to write code as an inexperienced pair and would get bogged down in the wrong thing. Randori meant that we collapsed the pairs into a single group with the person who thought they could progress at the keyboard and the rest of the group would watch. That person would get stuck but someone else would be inspired by that idea and would take the keyboard and be able to add something else. And little by little we solved some problems, and devs progressed. 3 Test engineers are now developers thanks to that process. 
+As part of my role as a principal dev, I run lunchtime coding dojos for some of the less experienced devs or those looking to move up to a dev role. This is a deliberate discovery setup where the goal is to learn something, not to complete a program. I started off setting a small programming problem each week and trying TDD in pairs and threes. This worked quite well until a chance conversation with Emily Bache turned me on to Randori style programming. What I found was the beginners got stuck very easily trying to write code as an inexperienced pair and would get bogged down in the wrong thing. Randori meant that we collapsed the pairs into a single group with the person who thought they could progress at the keyboard and the rest of the group would watch. That person would get stuck but someone else would be inspired by that idea and would take the keyboard and be able to add something else. And little by little we solved some problems, and devs progressed. 3 Test engineers are now developers thanks to that process.
 
 Meanwhile, Woody Zuill was hired at Hunter Industries to help a development team to improve their quality and deliver some projects. The team identified the shortcomings in their knowledge and so they took an action to meet for an hour each morning to do a dojo like activity to practice techniques like refactoring, they had a lunchtime study session for dev books. After each session the devs would return to their desks/silos and begin the real work of the day. What they found was they missed working as a group and discussed trying an experiment....
 
@@ -99,7 +78,7 @@ Turn up the good echoing XP
 
 There are rules and guidelines to follow.
 
-Mobbing components 
+Mobbing components
 Rules
 keyboard
 navigator
@@ -124,14 +103,14 @@ Everyone in the team has a role and the roles swap amongst members of the team e
 ## Guidelines
 
   - Driver or Typist
-  Driver is the least interesting piece of this whole arrangement. You are the person 
+  Driver is the least interesting piece of this whole arrangement. You are the person
     - Listen to what mob is asking
     - Translate that to code
     - Work with incomplete understanding at short intervals
     - Patience!
     - Don't premature challenge - leads endless discussions
     - Write the code, talk about the code, change - arguments fall away
-  
+
   - Rest of Mob
     - Discover what the next logical step is
     - Work collaboratively
@@ -142,11 +121,11 @@ Everyone in the team has a role and the roles swap amongst members of the team e
       - Extract method
       - Move to line, select lines, right click...
       - Communication is difficult
-      - Challenge is hard to 
-      
+      - Challenge is hard to
+
          - Responsible to help understanding
     - If you don't understand - have courage to ask
- 
+
       Driver
 At the keyboard
 Trust the navigator
@@ -165,7 +144,7 @@ Timer - switch to new keyboard every 5 minutes, 10 minutes
   - Optional Navigator
 
 ## Environment components
-  
+
   - Shyness
   - Everyone must be able to see the screen
   - Big screens
@@ -177,8 +156,8 @@ Timer - switch to new keyboard every 5 minutes, 10 minutes
 
 ## Features
 
-Amplified learning, easy for everyone to keep up to speed with problem being solved. 
-Amplified problems, slowness is amplified in tests, n x time for everyone. 
+Amplified learning, easy for everyone to keep up to speed with problem being solved.
+Amplified problems, slowness is amplified in tests, n x time for everyone.
  - Shared understanding.
     - Seeing code artefact
     - Short periods of time
@@ -197,7 +176,7 @@ For me the most interesting part of mob programming is the way it turns pairing 
 
 ## Strong Style Pairing
 
-Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements. 
+Llewellyn Falco - strong style pairing - this is the technique I believe is the big difference and the one thing that you can use to make immediate improvements.
 
 "For an idea to go from your head into the computer it MUST go through someone else's hands"
 
@@ -216,8 +195,8 @@ Like rubber ducking, find faults by vocalising what you are thinking. Much bette
  - Some teams hate typing - switching is easy
  - Some with high trust - it's a finish the thought kind of thing
  - Others need a physical timer to force a change
-   
-   
+
+
 ## Other Approaches
 
 Mob Testing - talk to Mike L about this.
@@ -233,8 +212,8 @@ Mob RPG
   - Industrial Logic
   - Menlo Innovations
   - Blue Fruit  
-  
-  
+
+
 ## Takeaways
   - Not here to tell you that you have to do or this is the only way to do it
   - But - It is possible and teams all over the world are doing it and having success.
@@ -245,12 +224,12 @@ Mob RPG
   - Mob ad-hoc seems to be good second best
   - Hopfully it will catch on
 
-  
-## Research 
 
-Research backs it up, a study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving. Researchers compared the problem-solving performance of small groups to that of individuals working alone. 
+## Research
+
+Research backs it up, a study published in the Journal of Personality and Social Psychology looked at the effects of group size on problem solving. Researchers compared the problem-solving performance of small groups to that of individuals working alone.
 The results of the study indicate that groups of three solve problems better than even the best individuals working alone. What are the implications of these results? The findings may be useful in academics, where problem solving groups might serve as an effective learning tool. Groups and teams in science, health care, and business may also find these techniques useful as well.
-    
+
 
 ## Resources
 
@@ -267,36 +246,36 @@ The results of the study indicate that groups of three solve problems better tha
 
   - Mobster timer https://github.com/dillonkearns/mobster
   https://github.com/MobProgramming/MobTimer.python
-  
+
 ### Links
 
   http://mobprogramming.org/
   https://agilegamesnewengland.com/index.php/mob-programming-conference
   - Mobster timer https://github.com/dillonkearns/mobster
-  
+
 ### Mob RPG Game
   - Good guide to the roles and behaviours
   - Need to run it on a code kata maybe?
   - Willem Larsen https://github.com/willemlarsen/mobprogrammingrpg
 
-  
+
 ## Closer
   - Thank you for being here
   - Hope it was useful
-  - Woody is back in UK in July 2018 
+  - Woody is back in UK in July 2018
   - Questions
   - Feedback forms
-  
-  
+
+
 - Need To Work on:
   - Story around (Need to work in my unimaginative steps)
   - How to fit strong style pairing
   - Isn't it just massively inefficient Pair programming?
-  - How is it different from Swarming? 
-  - Rubber Ducking 
-      Eliza bot 
+  - How is it different from Swarming?
+  - Rubber Ducking
+      Eliza bot
       https://rubberduckdebugging.com/cyberduck/
-      
+
   - Jigsaw?
 
 
@@ -350,7 +329,7 @@ Increase levels of understanding
 
 
 
-Woody father of mob. 
+Woody father of mob.
 
 fundamental attribution error
 - I broke the build because of reasons, you broke the build because you're a terrible person.
@@ -362,8 +341,8 @@ Consideration
 - Listen and put your self in their place.
 - Understand where they are coming from
 
- 
- 
+
+
 Visible - good for discussion and insights
 Whiteboard - identify important things to park on whiteboard
 
@@ -372,11 +351,11 @@ Can be very tiring but also the most productive, very enjoyable
 
 Rules
 Kindness
-Consideration 
+Consideration
 Respect
 
 Prevents name calling and derogatory remarks
-Norm Kerth's retrospective prime directive - every one is doing their best for theam 
+Norm Kerth's retrospective prime directive - every one is doing their best for theam
 and have their own point of view.
 
 http://www.retrospectives.com/pages/retroPrimeDirective.html
@@ -391,7 +370,7 @@ Guidelines
 * Roles
 Driver
 Navigator from XP
-Other Mob 
+Other Mob
  - Overwhelming having all navigators
  - Depends on size of team
 * Research
@@ -417,7 +396,7 @@ Focus
 
 Organically there are a lot of things to think about
 Code, standard, deployment, use cases, testing buisness impact, security etc.
-Mob takes up different aspects of all these 
+Mob takes up different aspects of all these
 Doesn't work
 One person is an expert - don't give them a keyboard - not allowed to have the keyboards
 Get understanding from them
@@ -429,16 +408,16 @@ Help everyone else get up to speed
 Nobody knows what's going on
 Legacy, person gone
 
-Timebox refactoring to improve code. At the end of the 20 mins. Talk about, throw away changes 
+Timebox refactoring to improve code. At the end of the 20 mins. Talk about, throw away changes
 
 New technology
  No body knows, needs research Timebox separation  - everyone has a different learning style
  What do we need to know to solve
-   - Share what we have learned. 
+   - Share what we have learned.
    - Put puzzle parts together.
-   
-   
-   
+
+
+
 Cost effective?
 Sage accountancy software
 Cost x 4
@@ -457,7 +436,7 @@ Financial Return - systems thinking
 Dev
 Sales
 Marketing
-Really hard to measure 
+Really hard to measure
 
 What impacts developer productivity? Ask audience
 Meetings?
@@ -474,7 +453,7 @@ Productivity of everyone - devs and testers
 Incomplete understanding - see defects
 Cruft - quality of code. Falco - on our own we get best and worst of us - graph
 - retro fit practices to compensate - code review
-Mob - Filters worst and get best all the time, 
+Mob - Filters worst and get best all the time,
 Technical Debt
 Investigating potential defects (not really a defect)
 
@@ -482,7 +461,7 @@ Mutlitasking
 switch 15 minutes+ cost
 Multiple switches - lose hours per day
 Context switches are expensive
-Mob solves 
+Mob solves
 
 Reduce WIP
 
@@ -500,7 +479,7 @@ Very expensive pair programming
 
 Ideal team size is 4 ish for complex problems
 2s is level of cleverest person
-3-5 can solve more complex problems than the clevest 
+3-5 can solve more complex problems than the clevest
 American Psychological society study
 
 
@@ -509,30 +488,30 @@ Pair programming
  Anti-pattern - heated and confrontational
  - Introverts
  - Person typing
- 
+
  Increased flow.
  Work stops, meeting, come back, type
  Work flows because it's averaged.
  Work on the most important thing
    park other things
-   
- 
+
+
  Group majority
  Go where the majority wants to go
- 
- 
+
+
  Waiting for information
  If you are waiting there is someone missing from the mob
- 
+
 
 
  Physical setup to get it right
- 
+
  lareg screens
  Open space to work
  Keyboard
  Hunter pix 12 teams
- 
+
 Emodies some of the approaches used in cutting-edge education practices - training from the back of the room.
 
 
@@ -593,7 +572,7 @@ Emodies some of the approaches used in cutting-edge education practices - traini
 
 on demand collaboration
 
-- How to 
+- How to
 Pairs at pairing stations
 
 Mob
@@ -631,7 +610,7 @@ For an idea to go from your head into the computer, it must go through someone e
 - No keyboard
 - Talk at highest level of abstraction
  - intent
- - 
+ -
  - syntax
 - Mobber
 
@@ -728,7 +707,7 @@ Half baked ideas aren't wasted time - beware of a single dev in a room on their 
 - Conclusion
 - Thank you
 - Resources
-- ebook 
+- ebook
 - github.com/MobProgramming/MobTImer.python
 - Questions
 - Feedback Forms
@@ -776,7 +755,7 @@ Prep:
 - Big screens
 - Everyone contributes
 - Navigator tells driver what to type
-- Facilitator - needed ? 
+- Facilitator - needed ?
 
 - Rules
 - Be Nice
@@ -787,7 +766,7 @@ Prep:
 - Not so bad - see gurus who hunt and peck,
 - can't remember API calls
 - Timer
-- Driver 
+- Driver
 - Navigator -> Driver
 - retrospective
 - something is painful - make a tool to help!
@@ -796,7 +775,7 @@ Prep:
 
 Small batchers (badgers)
 Handoffs
-Waterfall 
+Waterfall
 
 
 - Dojos
@@ -902,12 +881,12 @@ Pairing some styles
  Typing person has idea. and is typing into the keyboard, not description
  Other person is reading back from screen
  Not good tranlation
-  
-  
+
+
 ## Driver
 
  At keyboard for a few minutes at a time
- 
+
 ## Isn't this just a collosally expensive pairing
 
  QUality of thought is more important than quality of typing.
@@ -916,13 +895,13 @@ Pairing some styles
 ## De Mobbing
 
 Break out for research
- 
- 
+
+
  ## Push back
- 
+
  Management skepticism
  - At sage, if it works then continue to do it.
- 
+
 
 ## Team Size
 
@@ -930,7 +909,7 @@ Break out for research
 
 ## Fail
 
-Fails on tedious tasks or long running tests, admin tasks. Amplification makes long tasks seem longer. Opportunity for someone to create a tool or to address it in some other way. 
+Fails on tedious tasks or long running tests, admin tasks. Amplification makes long tasks seem longer. Opportunity for someone to create a tool or to address it in some other way.
 
 ## Reasons to mob
 
@@ -951,12 +930,12 @@ Diligence in creating tests, refactoring, naming
 
 Knowledge sharing for new members. Harde to understnad object model
  Easy to pick up idioms, teach history of app
- 
+
   SQL, C#, Javascript, Html
  Shared cognitive burden
- Work on bigger problems. 
- 
- 
+ Work on bigger problems.
+
+
 ## Productivity Blockers
 
 Reasons for frustration
@@ -985,7 +964,7 @@ Truck numbers
 ## Equipment
 
   - Whiteboard or pen and paper. Issues will arise and you need to be able to park them so you can come back (David Allen - you brain is for having ideas not for storing them).
-  
+
 
 ## Directing the Driver
 
