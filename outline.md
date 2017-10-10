@@ -44,6 +44,10 @@
     - Fundamental attribution error
   - Kerth's Prime Directive (Respect)
 
+  - Woody "We learned more about being kind, considerate and listening to each other. I think I am a better person than 6 years ago."
+
+  - Woody "We decided for one day to pretend to be kind, considerate and respectful. And then we decided to do it again."
+
   - Yes and... from improve. for ideas in coding and ... ?
   - Strong Style Pairing
 
